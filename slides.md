@@ -70,8 +70,8 @@ class: 'bg-gray-950 text-white'
 
   <div class="bg-red-950/30 border border-red-700 rounded-2xl p-5">
     <div class="text-center mb-3">
-      <div class="text-4xl font-black text-white">1 de 2</div>
-      <div class="text-base text-gray-300 mt-1">alimentos en tu plato tiene residuos</div>
+      <div class="text-5xl font-black text-white">1 de 2</div>
+      <div class="text-sm text-gray-400 mt-2">alimentos en tu plato tiene residuos</div>
       <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
     </div>
     <div class="flex flex-wrap justify-center gap-0.5 leading-tight">
@@ -85,8 +85,8 @@ class: 'bg-gray-950 text-white'
 
   <div class="bg-orange-950/30 border border-orange-700 rounded-2xl p-5">
     <div class="text-center mb-3">
-      <div class="text-4xl font-black text-white">½ kg</div>
-      <div class="text-base text-gray-300 mt-1">de pesticidas por persona, cada año</div>
+      <div class="text-5xl font-black text-white">½ kg</div>
+      <div class="text-sm text-gray-400 mt-2">de pesticidas por persona, cada año</div>
       <div class="text-xs text-gray-500 mt-1">FAO 2023</div>
     </div>
     <div class="flex items-end justify-center gap-6 mt-4">
@@ -108,11 +108,11 @@ class: 'bg-gray-950 text-white'
 </div>
 
 <div v-click class="grid grid-cols-2 gap-8">
-  <div class="bg-orange-950/20 border border-orange-800 rounded-xl p-4 text-center">
+  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-5 text-center">
     <div class="text-xl font-black text-orange-400 mb-1">Disrupción endocrina</div>
     <div class="text-gray-500 text-sm">Alteran hormonas reproductivas y metabólicas</div>
   </div>
-  <div class="bg-orange-950/20 border border-orange-800 rounded-xl p-4 text-center">
+  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-5 text-center">
     <div class="text-xl font-black text-orange-400 mb-1">Neurotoxicidad</div>
     <div class="text-gray-500 text-sm">Daño neurológico crónico por organofosforados</div>
   </div>
@@ -185,7 +185,7 @@ class: 'bg-gray-950 text-white'
 
 # La oportunidad de mercado
 
-<div class="grid grid-cols-3 gap-5 mt-4 mb-4">
+<div class="grid grid-cols-3 gap-6 mt-4 mb-4">
 
 <div class="bg-green-950/40 border border-green-700 rounded-2xl p-5 text-center">
   <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-2">TAM · Mercado total</div>
@@ -379,23 +379,23 @@ class: 'bg-gray-950 text-white'
 </div>
 
 <div class="flex flex-col justify-center">
-  <div class="text-gray-400 text-sm font-semibold uppercase tracking-wider mb-4">Este capital desbloquea</div>
+  <div class="text-gray-400 text-xs font-semibold uppercase tracking-wider mb-4">Este capital desbloquea</div>
   <div class="space-y-4">
     <div class="flex items-start gap-3">
-      <div class="text-green-400 text-xl mt-0.5">&#10003;</div>
-      <div class="text-lg text-white">Pilotos de campo en arándano y aguacate</div>
+      <div class="text-green-400 text-base mt-0.5">&#10003;</div>
+      <div class="text-base text-white">Pilotos de campo en arándano y aguacate</div>
     </div>
     <div class="flex items-start gap-3">
-      <div class="text-green-400 text-xl mt-0.5">&#10003;</div>
-      <div class="text-lg text-white">Primer contrato de suministro</div>
+      <div class="text-green-400 text-base mt-0.5">&#10003;</div>
+      <div class="text-base text-white">Primer contrato de suministro</div>
     </div>
     <div class="flex items-start gap-3">
-      <div class="text-green-400 text-xl mt-0.5">&#10003;</div>
-      <div class="text-lg text-white">Registro SENASA + homologación UE</div>
+      <div class="text-green-400 text-base mt-0.5">&#10003;</div>
+      <div class="text-base text-white">Registro SENASA + homologación UE</div>
     </div>
   </div>
 
-  <div class="mt-8 bg-blue-950/30 border border-blue-700 rounded-xl p-4">
+  <div class="mt-8 bg-blue-950/30 border border-blue-700 rounded-2xl p-5">
     <div class="text-sm font-bold text-blue-300 mb-1">¿Por qué GRIDx?</div>
     <div class="text-sm text-gray-300">Base científico-tecnológica alineada. Red que <strong class="text-white">acelera validación industrial</strong>.</div>
   </div>
