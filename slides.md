@@ -64,56 +64,56 @@ class: 'bg-gray-950 text-white'
 
 # La mayoría de los productores usa pesticidas químicos
 
-<div class="text-gray-400 text-lg mb-6">Es lo que conocen. Pero tiene <span class="text-orange-400 font-semibold">consecuencias silenciosas</span>.</div>
+<div class="text-gray-400 text-base mb-4">Es lo que conocen. Pero tiene <span class="text-orange-400 font-semibold">consecuencias silenciosas</span>.</div>
 
-<div class="grid grid-cols-2 gap-8 mb-6">
+<div class="grid grid-cols-2 gap-6 mb-4">
 
-  <div class="bg-red-950/30 border border-red-700 rounded-2xl p-5">
-    <div class="text-center mb-3">
+  <div class="bg-red-950/30 border border-red-700 rounded-2xl p-4">
+    <div class="flex items-center gap-4 mb-3">
       <div class="text-5xl font-black text-white">1 de 2</div>
-      <div class="text-sm text-gray-400 mt-2">alimentos en tu plato tiene residuos</div>
-      <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
+      <div>
+        <div class="text-sm text-gray-400">alimentos en tu plato tiene residuos</div>
+        <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
+      </div>
     </div>
-    <div class="flex flex-wrap justify-center gap-0.5 leading-tight">
-      <span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm">🍎</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span><span class="text-sm opacity-20">🍏</span>
+    <div class="flex justify-center gap-2 my-3">
+      <span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span>
     </div>
-    <div class="flex justify-center gap-4 mt-2 text-xs text-gray-400">
-      <span>🍎 con residuos</span>
-      <span class="opacity-40">🍏 sin residuos</span>
+    <div class="flex justify-center gap-4 text-xs text-gray-400">
+      <span>🍎 con residuos</span><span class="opacity-40">🍏 sin residuos</span>
     </div>
   </div>
 
-  <div class="bg-orange-950/30 border border-orange-700 rounded-2xl p-5">
-    <div class="text-center mb-3">
+  <div class="bg-orange-950/30 border border-orange-700 rounded-2xl p-4">
+    <div class="flex items-center gap-4 mb-3">
       <div class="text-5xl font-black text-white">½ kg</div>
-      <div class="text-sm text-gray-400 mt-2">de pesticidas por persona, cada año</div>
-      <div class="text-xs text-gray-500 mt-1">FAO 2023</div>
-    </div>
-    <div class="flex items-end justify-center gap-6 mt-4">
-      <div class="flex flex-col items-center">
-        <div class="bg-orange-700/60 rounded-t-lg w-14" style="height: 40px"></div>
-        <div class="text-xs text-gray-400 mt-2">1990</div>
-        <div class="text-xs text-gray-500">¼ kg</div>
-      </div>
-      <div class="flex flex-col items-center">
-        <div class="bg-orange-500 rounded-t-lg w-14" style="height: 80px"></div>
-        <div class="text-xs text-gray-400 mt-2">2023</div>
-        <div class="text-xs text-white font-bold">½ kg</div>
+      <div>
+        <div class="text-sm text-gray-400">de pesticidas por persona, cada año</div>
+        <div class="text-xs text-gray-500 mt-1">FAO 2023</div>
       </div>
     </div>
-    <div class="text-center text-orange-400 text-sm font-semibold mt-3">Se duplicó en 30 años</div>
-    <div class="text-center text-xs text-gray-500 mt-1">3,7M toneladas/año en el mundo</div>
+    <div class="flex items-end justify-center gap-8 my-3">
+      <div class="flex flex-col items-center">
+        <div class="bg-orange-700/60 rounded-t-lg w-12" style="height: 32px"></div>
+        <div class="text-xs text-gray-400 mt-1">1990 · ¼ kg</div>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="bg-orange-500 rounded-t-lg w-12" style="height: 64px"></div>
+        <div class="text-xs text-white font-bold mt-1">2023 · ½ kg</div>
+      </div>
+    </div>
+    <div class="text-center text-orange-400 text-sm font-semibold">Se duplicó en 30 años</div>
   </div>
 
 </div>
 
-<div v-click class="grid grid-cols-2 gap-8">
-  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-5 text-center">
-    <div class="text-xl font-black text-orange-400 mb-1">Disrupción endocrina</div>
+<div v-click class="grid grid-cols-2 gap-6">
+  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-4 text-center">
+    <div class="text-lg font-black text-orange-400 mb-1">Disrupción endocrina</div>
     <div class="text-gray-500 text-sm">Alteran hormonas reproductivas y metabólicas</div>
   </div>
-  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-5 text-center">
-    <div class="text-xl font-black text-orange-400 mb-1">Neurotoxicidad</div>
+  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-4 text-center">
+    <div class="text-lg font-black text-orange-400 mb-1">Neurotoxicidad</div>
     <div class="text-gray-500 text-sm">Daño neurológico crónico por organofosforados</div>
   </div>
 </div>
