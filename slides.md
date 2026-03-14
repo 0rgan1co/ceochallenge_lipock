@@ -46,7 +46,7 @@ class: 'text-white'
     LI<span class="text-green-400">POCK</span>
   </div>
   <div class="text-xl text-green-300 font-medium mb-4">
-    Biotecnología que la industria puede pagar
+    Biotecnología que la agroindustria puede pagar
   </div>
   <div class="mt-8 text-gray-400 text-sm">
     <span class="text-white font-semibold">CEO Challenge</span> · Jorge Roldán · Lipock
@@ -62,54 +62,48 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-# La mayoría de los productores agrícolas usa pesticidas químicos
+# La mayoría de los productores usa pesticidas químicos
 
-<div class="text-gray-400 text-base mb-6">Es lo que conocen, lo que siempre funcionó. Pero tiene consecuencias.</div>
+<div class="text-gray-400 text-lg mb-8">Es lo que conocen. Pero tiene consecuencias.</div>
 
-<div class="bg-gray-800/40 border border-gray-700 rounded-xl px-5 py-3 mb-6 text-center">
-  <span class="text-2xl font-black text-white">3,7M de toneladas de pesticidas al año</span>
-  <span class="text-gray-400 text-base ml-2">— el doble que en 1990</span>
-  <span class="text-gray-500 text-xs ml-2">FAO 2023</span>
-</div>
+<div class="grid grid-cols-2 gap-8 mb-6">
 
-<div class="grid grid-cols-3 gap-6 mt-2 mb-8">
-  <div class="bg-red-950/40 border border-red-700 rounded-2xl p-5 text-center">
-    <div class="text-6xl font-black text-white mb-2">54,6%</div>
-    <div class="text-base text-gray-300">de alimentos con residuos de pesticidas</div>
-    <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
-  </div>
-  <div class="bg-red-950/40 border border-red-700 rounded-2xl p-5 text-center">
-    <div class="text-6xl font-black text-white mb-2">4+</div>
-    <div class="text-base text-gray-300">químicos diferentes en una sola fruta</div>
-    <div class="text-xs text-gray-500 mt-1">EWG 2025</div>
-  </div>
-  <div class="bg-orange-950/40 border border-orange-700 rounded-2xl p-5 text-center">
-    <div class="text-6xl font-black text-white mb-2">-40%</div>
-    <div class="text-base text-gray-300">activos permitidos para exportar a UE</div>
-    <div class="text-xs text-gray-500 mt-1">LMR endurecidos cada año</div>
-  </div>
-</div>
-
-<div v-click class="bg-orange-950/20 border border-orange-800 rounded-2xl p-6">
-  <div class="text-orange-300 text-sm font-semibold uppercase tracking-wider mb-4 text-center">Las consecuencias son silenciosas</div>
-  <div class="grid grid-cols-3 gap-6 text-center">
-    <div>
-      <div class="text-2xl font-black text-white mb-1">Disrupción endocrina</div>
-      <div class="text-gray-400 text-sm">Alteran hormonas tiroideas, reproductivas y metabólicas</div>
+  <div class="bg-red-950/30 border border-red-700 rounded-2xl p-5">
+    <div class="text-center mb-4">
+      <div class="text-5xl font-black text-white">1 de 2</div>
+      <div class="text-base text-gray-300 mt-2">alimentos en tu plato tiene residuos de pesticidas</div>
+      <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
     </div>
-    <div>
-      <div class="text-2xl font-black text-white mb-1">Neurotoxicidad</div>
-      <div class="text-gray-400 text-sm">Daño neurológico crónico por organofosforados</div>
+    <div class="flex flex-wrap justify-center gap-1">
+      <span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-red-400 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span><span class="text-gray-600 text-xs">&#9679;</span>
     </div>
-    <div>
-      <div class="text-2xl font-black text-white mb-1">Pérdida de mercados</div>
-      <div class="text-gray-400 text-sm">Si no cumple LMR, no entra a UE ni EE.UU.</div>
+    <div class="flex justify-center gap-4 mt-2 text-xs">
+      <span><span class="text-red-400">&#9679;</span> con residuos</span>
+      <span><span class="text-gray-600">&#9679;</span> sin residuos</span>
     </div>
   </div>
+
+  <div class="bg-orange-950/30 border border-orange-700 rounded-2xl p-5 text-center flex flex-col justify-center">
+    <div class="text-5xl font-black text-white mb-3">½ kg</div>
+    <div class="text-lg text-gray-300">de pesticidas por cada persona del planeta, cada año</div>
+    <div class="text-xs text-gray-500 mt-2">FAO 2023 · 3,7M toneladas/año</div>
+  </div>
+
 </div>
 
-<div class="mt-4 text-xs text-gray-500">
-  EFSA 2024 · DOI: 10.2903/j.efsa.2024.8589 | EWG 2025 | Systematic Review 2024 · DOI: 10.1016/j.toxrep.2024.101813
+<div v-click class="grid grid-cols-3 gap-8 text-center">
+  <div>
+    <div class="text-xl font-black text-orange-400 mb-1">Disrupción endocrina</div>
+    <div class="text-gray-500 text-sm">Alteran hormonas reproductivas y metabólicas</div>
+  </div>
+  <div>
+    <div class="text-xl font-black text-orange-400 mb-1">Neurotoxicidad</div>
+    <div class="text-gray-500 text-sm">Daño neurológico crónico</div>
+  </div>
+  <div>
+    <div class="text-xl font-black text-red-400 mb-1">Pérdida de mercados</div>
+    <div class="text-gray-500 text-sm">Sin cumplir LMR, no entra a UE</div>
+  </div>
 </div>
 
 <!--
@@ -124,9 +118,9 @@ class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
 <div class="text-center max-w-3xl mx-auto">
   <div class="text-green-400 text-sm font-semibold uppercase tracking-widest mb-6">La pregunta que nos hicimos</div>
   <div class="text-3xl font-bold text-white leading-relaxed">
-    ¿Cómo hacer que un biocompuesto natural llegue <span class="text-green-400">intacto y activo</span> —<br>
-    al alimento en la mesa y al cultivo en el campo —<br>
-    a un costo que la industria <span class="text-green-400">realmente pueda pagar</span>?
+    ¿Cómo podríamos hacer que los biocompuestos naturales sean tan <span class="text-green-400">baratos y estables</span> como los aditivos sintéticos,<br>
+    para que la agroindustria pueda <span class="text-green-400">reducir el uso de insumos químicos</span><br>
+    sin sacrificar rentabilidad ni rendimiento?
   </div>
 </div>
 
@@ -183,30 +177,30 @@ class: 'bg-gray-950 text-white'
 
 <div class="bg-green-950/40 border border-green-700 rounded-2xl p-5 text-center">
   <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-2">TAM · Mercado total</div>
-  <div class="text-5xl font-black text-white">USD 3,5B</div>
-  <div class="text-sm text-gray-400 mt-2">Bioinsumos Brasil + Argentina</div>
-  <div class="text-xs text-gray-500 mt-1">🇧🇷 USD 3,2B (CAGR 21%) + 🇦🇷 USD 340M (+25%)</div>
+  <div class="text-5xl font-black text-white">USD 4,8B</div>
+  <div class="text-sm text-gray-400 mt-2">Bioinsumos en Latinoamérica</div>
+  <div class="text-xs text-gray-500 mt-1">CAGR 17% · Mordor Intelligence 2029</div>
 </div>
 
 <div class="bg-purple-950/40 border border-purple-700 rounded-2xl p-5 text-center">
   <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-2">SAM · Al que podemos llegar</div>
-  <div class="text-5xl font-black text-white">USD 500M</div>
-  <div class="text-sm text-gray-400 mt-2">Berries, cítricos, hortalizas de exportación</div>
-  <div class="text-xs text-gray-500 mt-1">Cultivos que necesitan cumplir LMR para exportar</div>
+  <div class="text-5xl font-black text-white">USD 1,2B</div>
+  <div class="text-sm text-gray-400 mt-2">Cultivos de exportación que deben cumplir LMR</div>
+  <div class="text-xs text-gray-500 mt-1">Berries, cítricos, hortalizas en LATAM</div>
 </div>
 
 <div class="bg-blue-950/40 border border-blue-700 rounded-2xl p-5 text-center">
   <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-2">SOM · Meta real año 3</div>
   <div class="text-5xl font-black text-white">USD 5M</div>
-  <div class="text-sm text-gray-400 mt-2">1% del SAM</div>
-  <div class="text-xs text-gray-500 mt-1">Arándano ARG + primeros contratos Brasil</div>
+  <div class="text-sm text-gray-400 mt-2">Argentina + Brasil</div>
+  <div class="text-xs text-gray-500 mt-1">🇦🇷 Arándano orgánico + 🇧🇷 Primeros contratos</div>
 </div>
 
 </div>
 
 <div v-click class="bg-green-950/30 border border-green-700 rounded-2xl p-6 text-center mb-4">
-  <div class="text-gray-400 text-sm mb-1">Si capturamos el 1% del mercado total</div>
-  <div class="text-5xl font-black text-green-400">USD 35M ARR</div>
+  <div class="text-gray-400 text-sm mb-1">Si capturamos el 2,5% del mercado total</div>
+  <div class="text-5xl font-black text-green-400">USD 120M ARR</div>
   <div class="text-gray-400 text-sm mt-1">revenue anual recurrente</div>
 </div>
 
@@ -215,10 +209,10 @@ class: 'bg-gray-950 text-white'
   <div class="text-gray-400 text-sm">🇦🇷 Arándano orgánico · 95% se exporta · <strong class="text-red-400">si no cumple LMR, no entra a UE</strong></div>
 </div>
 
-<div class="footnote">Brasil Regenera 2025 · CropLife · MAPA · MarketsandMarkets</div>
+<div class="footnote">CropLife LATAM · Mordor Intelligence · MAPA Brasil</div>
 
 <!--
-TAM: 3.5 mil millones, todo el mercado de bioinsumos en Brasil y Argentina. SAM: 500 millones, los cultivos de exportación que necesitan cumplir límites de pesticidas. SOM: 5 millones en año 3, meta real. Si llegamos al 1% del total, son 35 millones de ARR.
+TAM: 4.8 mil millones, todo el mercado de bioinsumos en Latinoamérica. SAM: 1.2 mil millones, cultivos de exportación que deben cumplir LMR. SOM: 5 millones en año 3, enfocados en Argentina y Brasil. Si llegamos al 1% del total, son 48 millones de ARR.
 -->
 
 ---
@@ -416,7 +410,7 @@ class: 'bg-gradient-to-br from-gray-950 via-green-950 to-gray-950 text-white'
   </div>
 
   <div class="bg-white/5 border border-white/10 rounded-2xl px-10 py-5 inline-block">
-    <div class="text-green-300 text-xl font-medium">Biotecnología que la industria puede pagar.</div>
+    <div class="text-green-300 text-xl font-medium">Biotecnología que la agroindustria puede pagar.</div>
   </div>
 
   <div class="mt-10 text-2xl text-white font-bold italic">
