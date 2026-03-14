@@ -10,9 +10,6 @@ mdc: true
 fonts:
   sans: Inter
   mono: Fira Code
----
-
----
 layout: center
 class: 'bg-gray-950 text-white'
 ---
@@ -51,9 +48,6 @@ class: 'text-white'
   <div class="text-xl text-green-300 font-medium mb-4">
     Biotecnología que la industria puede pagar
   </div>
-  <div class="text-lg text-gray-400 italic mb-8">
-    ¿Cómo podemos lograr que las plantas cuiden otras plantas?
-  </div>
   <div class="mt-8 text-gray-400 text-sm">
     <span class="text-white font-semibold">CEO Challenge</span> · Jorge Roldán · Lipock
   </div>
@@ -68,28 +62,36 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-# Lo que estamos comiendo nos está haciendo daño
+# La mayoría de los productores agrícolas usa pesticidas químicos
 
-<div class="grid grid-cols-3 gap-6 mt-6 mb-8">
+<div class="text-gray-400 text-base mb-6">Es lo que conocen, lo que siempre funcionó. Pero tiene consecuencias.</div>
+
+<div class="bg-gray-800/40 border border-gray-700 rounded-xl px-5 py-3 mb-6 text-center">
+  <span class="text-2xl font-black text-white">3,7M de toneladas de pesticidas al año</span>
+  <span class="text-gray-400 text-base ml-2">— el doble que en 1990</span>
+  <span class="text-gray-500 text-xs ml-2">FAO 2023</span>
+</div>
+
+<div class="grid grid-cols-3 gap-6 mt-2 mb-8">
+  <div class="bg-red-950/40 border border-red-700 rounded-2xl p-5 text-center">
+    <div class="text-6xl font-black text-white mb-2">54,6%</div>
+    <div class="text-base text-gray-300">de alimentos con residuos de pesticidas</div>
+    <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
+  </div>
   <div class="bg-red-950/40 border border-red-700 rounded-2xl p-5 text-center">
     <div class="text-6xl font-black text-white mb-2">4+</div>
-    <div class="text-base text-gray-300">químicos diferentes por fruta</div>
-    <div class="text-xs text-gray-500 mt-1">Promedio por muestra · EWG 2025</div>
+    <div class="text-base text-gray-300">químicos diferentes en una sola fruta</div>
+    <div class="text-xs text-gray-500 mt-1">EWG 2025</div>
   </div>
   <div class="bg-orange-950/40 border border-orange-700 rounded-2xl p-5 text-center">
-    <div class="text-6xl font-black text-white mb-2">54,6%</div>
-    <div class="text-base text-gray-300">de alimentos con residuos</div>
-    <div class="text-xs text-gray-500 mt-1">Muestras en UE · EFSA 2024</div>
-  </div>
-  <div class="bg-red-950/40 border border-red-700 rounded-2xl p-5 text-center">
-    <div class="text-6xl font-black text-white mb-2">96%</div>
-    <div class="text-base text-gray-300">de frutas contaminadas</div>
-    <div class="text-xs text-gray-500 mt-1">Dirty Dozen · EWG 2025</div>
+    <div class="text-6xl font-black text-white mb-2">-40%</div>
+    <div class="text-base text-gray-300">activos permitidos para exportar a UE</div>
+    <div class="text-xs text-gray-500 mt-1">LMR endurecidos cada año</div>
   </div>
 </div>
 
 <div v-click class="bg-orange-950/20 border border-orange-800 rounded-2xl p-6">
-  <div class="text-orange-300 text-sm font-semibold uppercase tracking-wider mb-4 text-center">El daño es silencioso</div>
+  <div class="text-orange-300 text-sm font-semibold uppercase tracking-wider mb-4 text-center">Las consecuencias son silenciosas</div>
   <div class="grid grid-cols-3 gap-6 text-center">
     <div>
       <div class="text-2xl font-black text-white mb-1">Disrupción endocrina</div>
@@ -100,18 +102,18 @@ class: 'bg-gray-950 text-white'
       <div class="text-gray-400 text-sm">Daño neurológico crónico por organofosforados</div>
     </div>
     <div>
-      <div class="text-2xl font-black text-white mb-1">Bioacumulación</div>
-      <div class="text-gray-400 text-sm">Se acumulan en el cuerpo — el efecto es a largo plazo</div>
+      <div class="text-2xl font-black text-white mb-1">Pérdida de mercados</div>
+      <div class="text-gray-400 text-sm">Si no cumple LMR, no entra a UE ni EE.UU.</div>
     </div>
   </div>
 </div>
 
 <div class="mt-4 text-xs text-gray-500">
-  Systematic Review 2024 · DOI: 10.1016/j.toxrep.2024.101813 | EFSA 2024 · DOI: 10.2903/j.efsa.2024.8589 | EWG 2025
+  EFSA 2024 · DOI: 10.2903/j.efsa.2024.8589 | EWG 2025 | Systematic Review 2024 · DOI: 10.1016/j.toxrep.2024.101813
 </div>
 
 <!--
-Dos datos de fuerza: casi todos consumimos químicos sintéticos a diario, y más de la mitad de los alimentos llega con residuos de pesticidas. Los efectos en la salud están documentados.
+3,7 millones de toneladas de pesticidas al año, el doble que en 1990. Los productores usan lo que conocen, pero las consecuencias son claras: residuos en alimentos, daño silencioso a la salud, y pérdida de acceso a mercados de exportación.
 -->
 
 ---
@@ -417,8 +419,8 @@ class: 'bg-gradient-to-br from-gray-950 via-green-950 to-gray-950 text-white'
     <div class="text-green-300 text-xl font-medium">Biotecnología que la industria puede pagar.</div>
   </div>
 
-  <div class="mt-10 text-lg text-gray-400 italic">
-    Que las plantas se protejan con plantas.
+  <div class="mt-10 text-2xl text-white font-bold italic">
+    ¿Cómo podemos lograr que las plantas cuiden otras plantas?
   </div>
 
 </div>
