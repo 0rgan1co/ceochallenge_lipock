@@ -29,9 +29,9 @@ class: 'bg-gray-950 text-white'
 }
 </style>
 
-<div class="text-center max-w-3xl mx-auto">
-  <div class="text-4xl text-white font-bold leading-relaxed">
-    ¿Saben cuántos pesticidas tienen<br>las frutas y verduras que comemos?
+<div class="text-center max-w-4xl mx-auto">
+  <div class="text-6xl text-white font-black leading-snug">
+    ¿Saben cuántos <span class="text-red-400">pesticidas</span> tienen<br>las <span class="text-green-400">frutas y verduras</span> que comemos?
   </div>
 </div>
 
