@@ -185,6 +185,89 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
+<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-3">Ventaja competitiva</div>
+
+<div class="w-full">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="border-b border-gray-700">
+        <th class="text-gray-400 font-normal text-left py-2 pr-4 w-1/4">Atributo clave</th>
+        <th class="py-2 px-3 w-1/7">
+          <div class="bg-white/10 border border-blue-400 rounded-xl px-3 py-2 text-center">
+            <div class="text-blue-300 font-black text-base">Lipock</div>
+            <div class="text-gray-400 text-xs font-normal">Colombia</div>
+          </div>
+        </th>
+        <th class="text-center py-2 px-3 w-1/7">
+          <div class="text-gray-300 font-semibold text-sm">Unibaio</div>
+          <div class="text-gray-500 text-xs font-normal">Argentina</div>
+        </th>
+        <th class="text-center py-2 px-3 w-1/7">
+          <div class="text-gray-300 font-semibold text-sm">Eden Research</div>
+          <div class="text-gray-500 text-xs font-normal">UK</div>
+        </th>
+        <th class="text-center py-2 px-3 w-1/7">
+          <div class="text-gray-300 font-semibold text-sm">Vexel</div>
+          <div class="text-gray-500 text-xs font-normal">Greedex</div>
+        </th>
+        <th class="text-center py-2 px-3 w-1/7">
+          <div class="text-gray-300 font-semibold text-sm">Sintético conv.</div>
+          <div class="text-gray-500 text-xs font-normal">Abamectina</div>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="border-b border-gray-800">
+        <td class="text-gray-300 py-3 pr-4">Sin residuo en suelo ni alimento</td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+      </tr>
+      <tr class="border-b border-gray-800">
+        <td class="text-gray-300 py-3 pr-4">Principio activo 100% natural (GRAS)</td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+      </tr>
+      <tr class="border-b border-gray-800">
+        <td class="text-gray-300 py-3 pr-4">Reducción de dosis ≥ 20x</td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+      </tr>
+      <tr class="border-b border-gray-800">
+        <td class="text-gray-300 py-3 pr-4">Materias primas producibles en Latam</td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+      </tr>
+      <tr>
+        <td class="text-gray-300 py-3 pr-4">Sin solventes tóxicos en producción</td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="mt-4 text-gray-600 text-xs">✓ confirmado · ~ parcial o en desarrollo · ✗ no aplica / no documentado</div>
+
+---
+layout: default
+class: 'bg-gray-950 text-white'
+---
+
 # La oportunidad de mercado
 
 <div class="text-gray-400 text-xs mb-3">El negocio está en convertir una fracción del mercado de <span class="text-white font-semibold">pesticidas químicos</span> — que ya existe, ya se compra, ya se presupuesta.</div>
