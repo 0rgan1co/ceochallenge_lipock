@@ -206,7 +206,7 @@ class: 'bg-gray-950 text-white'
   </div>
   <div class="bg-green-950/30 border border-green-800 rounded-2xl p-5 text-center">
     <div class="text-5xl font-black text-green-400">12 meses</div>
-    <div class="text-sm text-gray-400 mt-2">estabilidad real</div>
+    <div class="text-sm text-gray-400 mt-2">estabilidad · bioadhesión anti-lavado</div>
   </div>
   <div class="bg-green-950/30 border border-green-800 rounded-2xl p-5 text-center">
     <div class="text-5xl font-black text-green-400">25×</div>
@@ -534,10 +534,10 @@ class: 'bg-gray-950 text-white'
     </div>
   </div>
 
-  <div class="grid grid-cols-2 gap-x-6 gap-y-2 mt-4 text-sm">
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#3b82f6]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 40%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#a855f7]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#f59e0b]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
+  <div class="flex flex-col gap-2 mt-4 text-sm items-start">
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#3b82f6]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 40%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#a855f7]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#f59e0b]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
   </div>
 </div>
 
