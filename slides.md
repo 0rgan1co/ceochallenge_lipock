@@ -30,19 +30,19 @@ class: 'bg-gray-950 text-white'
 </style>
 
 <div class="flex flex-col justify-center h-full max-w-3xl">
-  <div class="text-3xl text-white font-black leading-snug mb-10">
+  <div v-motion :initial="{ opacity: 0, y: -30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 600 } }" class="text-3xl text-white font-black leading-snug mb-10">
     ¿Cuántos <span class="text-red-400">pesticidas químicos</span> tienen<br>las <span class="text-green-400">frutas y verduras</span> que comés?
   </div>
-  <div class="text-8xl font-black tracking-tight text-white leading-none mb-4">
+  <div v-click v-motion :initial="{ opacity: 0, x: -40 }" :enter="{ opacity: 1, x: 0, transition: { duration: 500 } }" class="text-8xl font-black tracking-tight text-white leading-none mb-4">
     LI<span class="text-green-400">POCK</span>
   </div>
-  <div class="flex items-center gap-3 mb-6">
+  <div v-click v-motion :initial="{ opacity: 0, x: -20 }" :enter="{ opacity: 1, x: 0, transition: { duration: 400 } }" class="flex items-center gap-3 mb-6">
     <div class="w-1 h-6 bg-green-400 rounded-full"></div>
     <div class="text-lg text-gray-300 font-medium">
       Biotecnología que la agroindustria quiere y puede pagar
     </div>
   </div>
-  <div class="text-gray-500 text-sm">
+  <div v-click v-motion :initial="{ opacity: 0 }" :enter="{ opacity: 1, transition: { duration: 400 } }" class="text-gray-500 text-sm">
     <span class="text-white font-semibold">CEO Challenge</span> · Jorge Roldán
   </div>
 </div>
