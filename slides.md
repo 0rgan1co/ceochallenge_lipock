@@ -426,7 +426,7 @@ class: 'bg-gray-950 text-white'
   </div>
 
   <div class="bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col">
-    <div class="mb-2"><span class="bg-teal-900/50 text-teal-300 text-xs font-semibold px-2 py-0.5 rounded-full">unibaio (modelo)</span></div>
+    <div class="mb-2"><span class="bg-teal-900/50 text-teal-300 text-xs font-semibold px-2 py-0.5 rounded-full">unibaio</span></div>
     <div class="text-white text-sm font-bold mb-2">Aditivo encapsulante</div>
     <div class="space-y-1 flex-1 text-xs">
       <div class="flex justify-between"><span class="text-gray-400">Dosis conv. reducida</span><span class="text-white font-semibold">0.3 L/ha (−70%)</span></div>
