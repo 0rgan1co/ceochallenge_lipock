@@ -64,7 +64,7 @@ class: 'bg-gray-950 text-white'
 
 <div class="grid grid-cols-3 gap-3 mt-1">
 
-  <div class="relative bg-red-950/20 border border-red-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
+  <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500 } }" class="relative bg-red-950/20 border border-red-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-700 to-red-400 rounded-t-xl"></div>
     <div class="text-2xl mb-1">🧑‍🤝‍🧑</div>
     <div class="text-red-400 text-xs font-bold uppercase tracking-widest mb-1">Personas</div>
@@ -78,7 +78,7 @@ class: 'bg-gray-950 text-white'
     <div class="text-xs text-gray-600 mt-2">EFSA 2024</div>
   </div>
 
-  <div class="relative bg-orange-950/20 border border-orange-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
+  <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500, delay: 100 } }" class="relative bg-orange-950/20 border border-orange-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-700 to-orange-400 rounded-t-xl"></div>
     <div class="text-2xl mb-1">🌾</div>
     <div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-1">Producción</div>
@@ -92,7 +92,7 @@ class: 'bg-gray-950 text-white'
     <div class="text-xs text-gray-600 mt-2">CropLife Latin America</div>
   </div>
 
-  <div class="relative bg-green-950/20 border border-green-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
+  <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500, delay: 200 } }" class="relative bg-green-950/20 border border-green-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-700 to-green-400 rounded-t-xl"></div>
     <div class="text-2xl mb-1">🌍</div>
     <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Planeta</div>
