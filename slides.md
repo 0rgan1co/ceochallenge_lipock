@@ -46,7 +46,7 @@ class: 'text-white'
     LI<span class="text-green-400">POCK</span>
   </div>
   <div class="text-xl text-green-300 font-medium mb-4">
-    Biotecnología que la agroindustria puede pagar
+    Biotecnología que la agroindustria quiere y puede pagar
   </div>
   <div class="mt-8 text-gray-400 text-sm">
     <span class="text-white font-semibold">CEO Challenge</span> · Jorge Roldán · Lipock
@@ -429,7 +429,7 @@ class: 'bg-gradient-to-br from-gray-950 via-green-950 to-gray-950 text-white'
   </div>
 
   <div class="bg-white/5 border border-white/10 rounded-2xl px-10 py-5 inline-block">
-    <div class="text-green-300 text-xl font-medium">Biotecnología que la agroindustria puede pagar.</div>
+    <div class="text-green-300 text-xl font-medium">Biotecnología que la agroindustria quiere y puede pagar.</div>
   </div>
 
 </div>
