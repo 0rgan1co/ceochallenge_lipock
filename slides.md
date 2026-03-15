@@ -284,8 +284,8 @@ class: 'bg-gray-950 text-white'
     <img src="/images/jorge-roldan.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Jorge Roldán</div>
-  <div class="text-cyan-400 text-xs">Ing. Industrial</div>
-  <div class="text-gray-500 text-xs">Ops & Estrategia · Tec de Monterrey</div>
+  <div class="text-cyan-400 text-xs">Negocio & Estrategia</div>
+  <div class="text-gray-500 text-xs">Tec de Monterrey</div>
 </div>
 
 </div>
