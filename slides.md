@@ -96,8 +96,8 @@ class: 'bg-gray-950 text-white'
   <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500, delay: 100 } }" class="relative bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-yellow-700 to-yellow-400 rounded-t-xl"></div>
     <div class="text-yellow-400 text-xs font-bold uppercase tracking-widest mb-1">Producción</div>
-    <div class="text-4xl font-black text-white leading-none mb-1">32%</div>
-    <div class="text-gray-300 text-xs mb-2">de fitosanitarios de LATAM viene de China</div>
+    <div class="text-4xl font-black text-white leading-none mb-1">1 de 2</div>
+    <div class="text-gray-300 text-xs mb-2">principios activos fitosanitarios viene de China</div>
     <div class="border-t border-gray-700 mb-2"></div>
     <div class="mb-2">
       <span class="inline-block bg-yellow-900 text-yellow-200 text-xs font-semibold px-2 py-0.5 rounded mb-1">Para el productor</span>
@@ -115,7 +115,7 @@ class: 'bg-gray-950 text-white'
         <div class="text-xs text-gray-500">Vulnerabilidad estructural del negocio</div>
       </div>
     </div>
-    <div class="text-xs text-gray-600 mt-auto">CropLife Latin America</div>
+    <div class="text-xs text-gray-600 mt-auto">SENASA</div>
   </div>
 
   <!-- PLANETA -->
