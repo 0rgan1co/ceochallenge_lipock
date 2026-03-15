@@ -185,7 +185,7 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-3">Ventaja competitiva</div>
+<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-3">¿En qué nos diferenciamos?</div>
 
 <div class="w-full">
   <table class="w-full text-sm border-collapse">
