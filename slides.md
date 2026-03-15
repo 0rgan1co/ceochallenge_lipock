@@ -177,7 +177,7 @@ class: 'bg-gray-950 text-white'
 # Detalle de la solución
 
 <div class="mt-4">
-  <img src="/images/nanoparticulas-tipos.png" class="w-full rounded-2xl" />
+  <img src="/images/modo-accion-dual.png" class="w-full rounded-2xl" />
 </div>
 
 ---
