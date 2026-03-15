@@ -187,45 +187,45 @@ class: 'bg-gray-950 text-white'
 
 # La oportunidad de mercado
 
-<div class="text-gray-400 text-sm mb-4">El negocio está en convertir una fracción del mercado de <span class="text-white font-semibold">pesticidas químicos</span> — que ya existe, ya se compra, ya se presupuesta.</div>
+<div class="text-gray-400 text-xs mb-3">El negocio está en convertir una fracción del mercado de <span class="text-white font-semibold">pesticidas químicos</span> — que ya existe, ya se compra, ya se presupuesta.</div>
 
-<div class="grid grid-cols-3 gap-6 mt-2 mb-4">
+<div class="grid grid-cols-3 gap-4 mb-3">
 
-<div class="bg-green-950/40 border border-green-700 rounded-2xl p-5 text-center">
-  <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-2">TAM · Mercado total</div>
-  <div class="text-5xl font-black text-white">USD 15B</div>
-  <div class="text-sm text-gray-400 mt-2">Pesticidas químicos en Latinoamérica</div>
+<div class="bg-green-950/40 border border-green-700 rounded-xl p-4 text-center">
+  <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-1">TAM · Mercado total</div>
+  <div class="text-4xl font-black text-white">USD 15B</div>
+  <div class="text-xs text-gray-400 mt-1">Pesticidas químicos en Latinoamérica</div>
   <div class="text-xs text-gray-500 mt-1">Brasil + Argentina · CropLife LATAM 2023</div>
 </div>
 
-<div class="bg-purple-950/40 border border-purple-700 rounded-2xl p-5 text-center">
-  <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-2">SAM · Al que podemos llegar</div>
-  <div class="text-5xl font-black text-white">USD 3B</div>
-  <div class="text-sm text-gray-400 mt-2">Cultivos de exportación con cumplimiento LMR obligatorio</div>
+<div class="bg-purple-950/40 border border-purple-700 rounded-xl p-4 text-center">
+  <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-1">SAM · Al que podemos llegar</div>
+  <div class="text-4xl font-black text-white">USD 3B</div>
+  <div class="text-xs text-gray-400 mt-1">Cultivos de exportación con LMR obligatorio</div>
   <div class="text-xs text-gray-500 mt-1">Aguacate, berries, cítricos, hortalizas</div>
 </div>
 
-<div class="bg-blue-950/40 border border-blue-700 rounded-2xl p-5 text-center">
-  <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-2">SOM · Meta real año 3</div>
-  <div class="text-5xl font-black text-white">USD 5M</div>
-  <div class="text-sm text-gray-400 mt-2">Argentina + Brasil</div>
+<div class="bg-blue-950/40 border border-blue-700 rounded-xl p-4 text-center">
+  <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-1">SOM · Meta real año 3</div>
+  <div class="text-4xl font-black text-white">USD 5M</div>
+  <div class="text-xs text-gray-400 mt-1">Argentina + Brasil</div>
   <div class="text-xs text-gray-500 mt-1">🇦🇷 Arándano + aguacate 🇧🇷 Primeros contratos</div>
 </div>
 
 </div>
 
-<div v-click class="bg-green-950/30 border border-green-700 rounded-2xl p-4 text-center mb-3">
-  <div class="text-gray-400 text-sm mb-1">Si convertimos el <span class="text-white font-semibold">1% del mercado químico</span> a biopesticidas</div>
-  <div class="text-5xl font-black text-green-400">USD 150M ARR</div>
-  <div class="text-gray-400 text-sm mt-1">revenue anual recurrente (ingresos recurrentes anuales)</div>
+<div v-click class="bg-green-950/30 border border-green-700 rounded-xl p-3 text-center mb-3">
+  <div class="text-gray-400 text-xs mb-1">Si convertimos el <span class="text-white font-semibold">1% del mercado químico</span> a biopesticidas</div>
+  <div class="text-4xl font-black text-green-400">USD 150M ARR</div>
+  <div class="text-gray-400 text-xs mt-1">revenue anual recurrente</div>
 </div>
 
-<div class="grid grid-cols-2 gap-6 text-center">
-  <div class="text-gray-400 text-sm">🇧🇷 Brasil con palanca jurídica · Ley 15.700 · primera ley de bioinsumos del mundo</div>
-  <div class="text-gray-400 text-sm">🇦🇷 Argentina · oportunidad para acelerar la transición · <strong class="text-red-400">si no cumple LMR (Límites Máximos de Residuos), no entra a la UE (Unión Europea)</strong></div>
+<div class="grid grid-cols-2 gap-4 text-center">
+  <div class="text-gray-400 text-xs">🇧🇷 Brasil · Ley 15.700 · primera ley de bioinsumos del mundo</div>
+  <div class="text-gray-400 text-xs">🇦🇷 Argentina · <strong class="text-red-400">si no cumple LMR, no entra a la UE</strong></div>
 </div>
 
-<div class="footnote">CropLife LATAM · MAPA (Ministerio de Agricultura, Ganadería y Abastecimiento) Brasil</div>
+<div class="footnote">CropLife LATAM · MAPA Brasil</div>
 
 <!--
 El TAM es el mercado de pesticidas químicos que ya existe: USD 15B en LATAM. El negocio de Lipock es capturar una fracción de ese gasto y convertirlo a biopesticidas. SAM: cultivos de exportación donde el LMR es obligatorio para entrar a UE y EE.UU. Con solo el 1% de conversión: USD 150M ARR.
