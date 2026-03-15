@@ -31,7 +31,7 @@ class: 'bg-gray-950 text-white'
 
 <div class="flex flex-col justify-center h-full max-w-3xl">
   <div v-motion :initial="{ opacity: 0, y: -30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 600 } }" class="text-3xl text-white font-black leading-snug mb-10">
-    ¿Cuántos <span class="text-red-400">pesticidas químicos</span> tienen<br>las <span class="text-green-400">frutas y verduras</span> que comés?
+    ¿Sabés cuántos <span class="text-red-400">pesticidas químicos</span> tienen<br>las <span class="text-green-400">frutas y verduras</span> que comiste hoy?
   </div>
   <div v-click v-motion :initial="{ opacity: 0, x: -40 }" :enter="{ opacity: 1, x: 0, transition: { duration: 500 } }" class="text-8xl font-black tracking-tight text-white leading-none mb-4">
     LI<span class="text-green-400">POCK</span>
