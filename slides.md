@@ -244,7 +244,7 @@ class: 'bg-gray-950 text-white'
           <div class="text-gray-500 text-xs font-normal">UK</div>
         </th>
         <th class="text-center py-2 px-3 w-1/7">
-          <div class="text-gray-300 font-semibold text-sm">Vexel</div>
+          <div class="text-gray-300 font-semibold text-sm">Vexxel</div>
           <div class="text-gray-500 text-xs font-normal">GirdX</div>
         </th>
         <th class="text-center py-2 px-3 w-1/7">
