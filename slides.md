@@ -70,9 +70,9 @@ class: 'bg-gray-950 text-white'
   <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500 } }" class="relative bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-700 to-red-400 rounded-t-xl"></div>
     <div class="text-red-400 text-xs font-bold uppercase tracking-widest mb-1">Personas</div>
-    <div class="text-4xl font-black text-white leading-none mb-1">50%</div>
-    <div class="text-gray-300 text-xs mb-2">de los alimentos con residuos agrotóxicos</div>
-    <div class="border-t border-gray-700 mb-2"></div>
+    <div class="text-6xl font-black text-white leading-none">50%</div>
+    <div class="text-gray-300 text-xs mb-3">de los alimentos con residuos agrotóxicos</div>
+    <div class="border-t-2 border-gray-600 mb-3"></div>
     <div class="mb-2">
       <span class="inline-block bg-red-900 text-red-200 text-xs font-semibold px-2 py-0.5 rounded mb-1">Para tu familia</span>
       <div class="border-l-2 border-red-700 pl-2">
@@ -90,16 +90,16 @@ class: 'bg-gray-950 text-white'
         <div class="text-xs text-gray-500">Acceso al mercado mejor pago en juego</div>
       </div>
     </div>
-    <div class="text-xs text-gray-600 mt-auto">EFSA 2024 · Hesperian Health</div>
+    <div class="text-xs text-gray-600 mt-auto"><a href="https://www.efsa.europa.eu/en/topics/topic/pesticides" target="_blank" class="hover:text-gray-400 underline">EFSA 2024</a> · <a href="https://hesperian.org/" target="_blank" class="hover:text-gray-400 underline">Hesperian Health</a></div>
   </div>
 
   <!-- PRODUCCIÓN -->
   <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500, delay: 100 } }" class="relative bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-yellow-700 to-yellow-400 rounded-t-xl"></div>
     <div class="text-yellow-400 text-xs font-bold uppercase tracking-widest mb-1">Producción</div>
-    <div class="text-4xl font-black text-white leading-none mb-1">1 de 2</div>
-    <div class="text-gray-300 text-xs mb-2">principios activos fitosanitarios viene de China</div>
-    <div class="border-t border-gray-700 mb-2"></div>
+    <div class="text-6xl font-black text-white leading-none">1 de 2</div>
+    <div class="text-gray-300 text-xs mb-3">principios activos fitosanitarios viene de China</div>
+    <div class="border-t-2 border-gray-600 mb-3"></div>
     <div class="mb-2">
       <span class="inline-block bg-yellow-900 text-yellow-200 text-xs font-semibold px-2 py-0.5 rounded mb-1">Para el productor</span>
       <div class="border-l-2 border-yellow-700 pl-2">
@@ -116,16 +116,16 @@ class: 'bg-gray-950 text-white'
         <div class="text-xs text-gray-500">Vulnerabilidad estructural del negocio</div>
       </div>
     </div>
-    <div class="text-xs text-gray-600 mt-auto">SENASA</div>
+    <div class="text-xs text-gray-600 mt-auto"><a href="https://www.argentina.gob.ar/senasa" target="_blank" class="hover:text-gray-400 underline">SENASA</a></div>
   </div>
 
   <!-- PLANETA -->
   <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500, delay: 200 } }" class="relative bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-700 to-green-400 rounded-t-xl"></div>
     <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Planeta</div>
-    <div class="text-4xl font-black text-white leading-none mb-1">40%</div>
-    <div class="text-gray-300 text-xs mb-2">del suelo agrícola está degradado</div>
-    <div class="border-t border-gray-700 mb-2"></div>
+    <div class="text-6xl font-black text-white leading-none">40%</div>
+    <div class="text-gray-300 text-xs mb-3">del suelo agrícola está degradado</div>
+    <div class="border-t-2 border-gray-600 mb-3"></div>
     <div class="mb-2">
       <span class="inline-block bg-green-900 text-green-200 text-xs font-semibold px-2 py-0.5 rounded mb-1">Para el campo</span>
       <div class="border-l-2 border-green-700 pl-2">
@@ -142,7 +142,7 @@ class: 'bg-gray-950 text-white'
         <div class="text-xs text-gray-500">Es destruir el capital de base</div>
       </div>
     </div>
-    <div class="text-xs text-gray-600 mt-auto">FAO / Scherr & Yadav</div>
+    <div class="text-xs text-gray-600 mt-auto"><a href="https://www.fao.org/soils-portal/en/" target="_blank" class="hover:text-gray-400 underline">FAO</a> / Scherr & Yadav</div>
   </div>
 
 </div>
@@ -157,42 +157,25 @@ class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
 ---
 
 <style>
-@keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
+@keyframes revealLine {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
 }
-@keyframes blink {
-  0%, 100% { border-color: transparent; }
-  50% { border-color: #4ade80; }
-}
-.typewriter-line {
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  border-right: 3px solid #4ade80;
-  animation: typewriter 1.2s steps(40) forwards, blink 0.7s step-end 1.2s 3;
-}
-.typewriter-line-2 {
-  overflow: hidden;
-  white-space: nowrap;
-  display: inline-block;
-  border-right: 3px solid #4ade80;
-  animation: typewriter 1.4s steps(50) forwards, blink 0.7s step-end 1.4s 3;
+.reveal-line {
+  animation: revealLine 0.6s ease forwards;
 }
 </style>
 
-<div class="text-center max-w-4xl mx-auto">
+<div class="text-center max-w-5xl mx-auto px-4">
   <div class="text-green-400 text-sm font-semibold uppercase tracking-widest mb-8">La pregunta que nos hicimos</div>
   <div class="text-4xl font-black text-white leading-snug">
-    <div class="typewriter-line">
+    <div class="reveal-line mb-4">
       ¿Cómo hacer biopesticidas tan <span class="text-red-400 underline decoration-red-500">efectivos y baratos</span>
     </div>
-    <br>
-    <div v-click class="typewriter-line-2">
+    <div v-click class="reveal-line mb-4">
       que la agroindustria <span class="text-green-400 underline decoration-green-500">reduzca insumos químicos</span> sin sacrificar <span class="text-white underline">rentabilidad</span> ni <span class="text-white underline">rendimiento</span>,
     </div>
-    <br>
-    <div v-click class="typewriter-line-2" style="animation-delay: 0.2s;">
+    <div v-click class="reveal-line">
       y al mismo tiempo <span class="text-green-400 underline decoration-green-500">cuide la tierra</span>?
     </div>
   </div>
@@ -205,28 +188,16 @@ class: 'bg-gray-950 text-white'
 
 <h1 class="text-3xl font-black text-white mb-1">Nanocápsulas lipídicas — <span class="text-green-400">la solución</span></h1>
 
-<div class="grid grid-cols-3 gap-6 mt-4 mb-6 items-center">
+<div class="text-center bg-white/5 border border-green-800/50 rounded-xl py-2 px-4 mb-3">
+  <span class="text-gray-300">Biopesticidas accesibles a través de </span><span class="text-white font-semibold">nanocápsulas lipídicas, biodegradables y comestibles</span><span class="text-gray-300">, que encapsulan biocompuestos naturales como los </span><span class="text-green-400 font-semibold">aceites esenciales con propiedades antimicrobianas y antioxidantes</span>
+</div>
+
+<div class="grid grid-cols-3 gap-6 mt-2 mb-6 items-center">
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
     <img src="/images/nanocapsulas-estructura.png" class="w-full h-full object-cover" />
   </div>
-  <div class="rounded-2xl overflow-hidden border border-green-800 h-48 relative">
-    <!-- Foto suelo vivo (izquierda, clip diagonal) -->
-    <div class="absolute inset-0" style="clip-path: polygon(0 0, 58% 0, 42% 100%, 0 100%);">
-      <img src="/images/suelo-vivo.jpg" class="w-full h-full object-cover" style="filter: saturate(1.3);" />
-    </div>
-    <!-- Foto suelo muerto (derecha, clip diagonal) -->
-    <div class="absolute inset-0" style="clip-path: polygon(58% 0, 100% 0, 100% 100%, 42% 100%);">
-      <img src="/images/suelo-muerto.jpg" class="w-full h-full object-cover" style="filter: saturate(0.6) sepia(0.3);" />
-    </div>
-    <!-- Línea diagonal de separación -->
-    <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 0%, transparent 45%, rgba(255,255,255,0.6) 50%, transparent 55%, transparent 100%); transform: rotate(20deg) scaleX(0.1) translateX(250%)"></div>
-    <!-- Labels -->
-    <div class="absolute bottom-2 left-3">
-      <span class="bg-green-900/80 text-green-300 text-xs font-bold px-2 py-0.5 rounded-full">Suelo vivo</span>
-    </div>
-    <div class="absolute bottom-2 right-3">
-      <span class="bg-orange-900/80 text-orange-300 text-xs font-bold px-2 py-0.5 rounded-full">Suelo degradado</span>
-    </div>
+  <div class="rounded-2xl overflow-hidden border border-green-800 h-48">
+    <img src="/images/modo-accion-dual.png" class="w-full h-full object-cover" />
   </div>
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
     <img src="/images/plagas-objetivo.png" class="w-full h-full object-cover" />
@@ -237,6 +208,7 @@ class: 'bg-gray-950 text-white'
   <div class="bg-green-950/30 border border-green-800 rounded-2xl p-5 text-center">
     <div class="text-5xl font-black text-green-400">80%</div>
     <div class="text-sm text-gray-400 mt-2">menos volatilidad</div>
+    <div class="text-xs text-gray-600 mt-1">· imperfecciones intencionales</div>
   </div>
   <div class="bg-green-950/30 border border-green-800 rounded-2xl p-5 text-center">
     <div class="text-5xl font-black text-green-400">12 meses</div>
@@ -250,7 +222,7 @@ class: 'bg-gray-950 text-white'
 
 <div class="text-center text-gray-400 text-base">Biodegradables · Comestibles · Cera de carnauba + aceites esenciales</div>
 
-<div class="text-xs text-gray-500 text-center mt-3">Múnera-Echeverri et al., Colloids and Interfaces, 2024 · MDPI | Patente provisional USPTO · Licencia U. Antioquia</div>
+<div class="text-xs text-gray-500 text-center mt-3"><a href="https://www.mdpi.com/journal/colloids" target="_blank" class="hover:text-gray-400 underline">Múnera-Echeverri et al., Colloids and Interfaces, 2024 · MDPI</a> | <a href="https://www.uspto.gov/" target="_blank" class="hover:text-gray-400 underline">Patente provisional USPTO</a> · Licencia U. Antioquia</div>
 
 <!--
 Nuestra tecnología NLC: tres imágenes hablan por sí solas. Nanocápsulas, formulaciones, y las plagas objetivo. Los números: 80% menos volatilidad, 12 meses estable, 25 veces menos dosis.
@@ -266,6 +238,108 @@ class: 'bg-gray-950 text-white'
 <div class="mt-4">
   <img src="/images/modo-accion-dual.png" class="w-full rounded-2xl" />
 </div>
+
+---
+layout: default
+class: 'bg-gray-950 text-white'
+---
+
+<h1 class="text-3xl font-black text-white mb-2">Evidencia científica — <span class="text-green-400">ensayo biológico</span></h1>
+
+<div class="flex items-center gap-3 mb-3">
+  <span class="bg-yellow-900/60 border border-yellow-600 text-yellow-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">TRL 4 · Ensayo in vitro validado</span>
+  <span class="text-gray-500 text-xs">Múnera-Echeverri et al. · Colloids and Interfaces · MDPI 2024</span>
+</div>
+
+<div class="grid grid-cols-2 gap-4">
+
+  <!-- DISEÑO EXPERIMENTAL -->
+  <div class="space-y-2">
+    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Diseño del ensayo</div>
+
+    <div class="bg-gray-900 border border-gray-700 rounded-xl p-3">
+      <div class="text-xs font-semibold text-white mb-2">Plagas objetivo (3 especies cosmopolitas)</div>
+      <div class="grid grid-cols-3 gap-2">
+        <div class="bg-red-950/40 border border-red-800 rounded-lg p-2 text-center">
+          <div class="text-base">🐛</div>
+          <div class="text-xs text-red-300 font-semibold">Pulgón verde</div>
+          <div class="text-xs text-gray-500 italic">Myzus persicae</div>
+          <div class="text-xs text-gray-400 mt-1">20 adultos</div>
+        </div>
+        <div class="bg-orange-950/40 border border-orange-800 rounded-lg p-2 text-center">
+          <div class="text-base">🕷️</div>
+          <div class="text-xs text-orange-300 font-semibold">Ácaro rojo</div>
+          <div class="text-xs text-gray-500 italic">Tetranychus urticae</div>
+          <div class="text-xs text-gray-400 mt-1">20 adultos</div>
+        </div>
+        <div class="bg-yellow-950/40 border border-yellow-800 rounded-lg p-2 text-center">
+          <div class="text-base">🪲</div>
+          <div class="text-xs text-yellow-300 font-semibold">Trips</div>
+          <div class="text-xs text-gray-500 italic">Frankliniella occ.</div>
+          <div class="text-xs text-gray-400 mt-1">10 adultos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gray-900 border border-gray-700 rounded-xl p-3 text-xs space-y-1.5">
+      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Discos de hoja de frijol (⌀ 4 cm), 4 repeticiones por tratamiento</span></div>
+      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">0,50 mL de nanosuspensión aplicados con pulverizador manual</span></div>
+      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Condiciones: 25 ± 5 °C · HR 70 ± 5%</span></div>
+      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Controles: agua destilada (–) · acetona · CapsiAlil EC® (+)</span></div>
+      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Medición de mortalidad a las 24 h y 48 h</span></div>
+    </div>
+  </div>
+
+  <!-- RESULTADOS -->
+  <div class="space-y-2">
+    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Resultados — TEO-NLC (aceite de tomillo)</div>
+
+    <div class="space-y-2">
+      <div class="bg-gray-900 border border-yellow-700 rounded-xl p-3">
+        <div class="flex justify-between items-center mb-1">
+          <span class="text-yellow-300 text-xs font-semibold">Trips · Frankliniella occ.</span>
+          <span class="text-white text-sm font-black">24–38%</span>
+        </div>
+        <div class="w-full bg-gray-800 rounded-full h-2 mb-1">
+          <div class="bg-yellow-400 h-2 rounded-full" style="width: 38%"></div>
+        </div>
+        <div class="text-yellow-600 text-xs">Toxicidad moderada · mejor resultado del ensayo</div>
+      </div>
+
+      <div class="bg-gray-900 border border-orange-800 rounded-xl p-3">
+        <div class="flex justify-between items-center mb-1">
+          <span class="text-orange-300 text-xs font-semibold">Ácaro · Tetranychus urticae</span>
+          <span class="text-white text-sm font-black">~23%</span>
+        </div>
+        <div class="w-full bg-gray-800 rounded-full h-2 mb-1">
+          <div class="bg-orange-400 h-2 rounded-full" style="width: 23%"></div>
+        </div>
+        <div class="text-orange-700 text-xs">Toxicidad leve · efectos mecánicos confirmados</div>
+      </div>
+
+      <div class="bg-gray-900 border border-gray-700 rounded-xl p-3">
+        <div class="flex justify-between items-center mb-1">
+          <span class="text-gray-400 text-xs font-semibold">Pulgón · Myzus persicae</span>
+          <span class="text-gray-400 text-sm font-black">Limitado</span>
+        </div>
+        <div class="w-full bg-gray-800 rounded-full h-2 mb-1">
+          <div class="bg-gray-600 h-2 rounded-full" style="width: 8%"></div>
+        </div>
+        <div class="text-gray-600 text-xs">REO-NLC (romero) también mostró eficacia mínima</div>
+      </div>
+    </div>
+
+    <div class="bg-green-950/40 border border-green-700 rounded-xl p-3 text-xs text-gray-300">
+      La encapsulación <strong class="text-white">mejora la actividad insecticida</strong> vs. aceite libre por inmovilización y penetración mecánica.
+      Próximo paso: <span class="text-green-400 font-semibold">optimizar dosis para mayor letalidad en campo</span>.
+    </div>
+  </div>
+
+</div>
+
+<!--
+TRL 4: ensayo in vitro validado. TEO-NLC demostró toxicidad moderada en trips (24–38%) y leve en ácaros (~23%). La encapsulación mejora la actividad insecticida. Siguiente etapa: pilotos en campo abierto.
+-->
 
 ---
 layout: default
@@ -295,7 +369,7 @@ class: 'bg-gray-950 text-white'
         </th>
         <th class="text-center align-middle py-2 px-3 w-1/7">
           <div class="text-gray-300 font-semibold text-sm">Vexxel</div>
-          <div class="text-gray-500 text-xs font-normal">GirdX</div>
+          <div class="text-gray-500 text-xs font-normal">Argentina</div>
         </th>
         <th class="text-center align-middle py-2 px-3 w-1/7">
           <div class="text-gray-300 font-semibold text-sm">Sintético conv.</div>
@@ -374,7 +448,7 @@ class: 'bg-gray-950 text-white'
   <div class="text-4xl font-black text-white">USD 71.5B</div>
   <div class="text-xs text-gray-400 mt-1">Pesticidas a nivel mundial · 2024</div>
   <div class="text-xs text-green-500 mt-1">→ USD 133B en 2034 · CAGR 6.4%</div>
-  <div class="text-xs text-gray-600 mt-1">Market.us</div>
+  <div class="text-xs text-gray-600 mt-1"><a href="https://market.us/report/biopesticides-market/" target="_blank" class="hover:text-gray-400 underline">Market.us</a></div>
 </div>
 
 <div class="bg-purple-950/40 border border-purple-700 rounded-xl p-4 text-center">
@@ -382,7 +456,7 @@ class: 'bg-gray-950 text-white'
   <div class="text-4xl font-black text-white">USD 23.3B</div>
   <div class="text-xs text-gray-400 mt-1">Fitosanitarios en América del Sur y Central · 2024</div>
   <div class="text-xs text-purple-400 mt-1">Biopesticidas crecen al CAGR 16.72%</div>
-  <div class="text-xs text-gray-600 mt-1">Agrolatam · Fortune Business Insights</div>
+  <div class="text-xs text-gray-600 mt-1"><a href="https://agrolatam.com/" target="_blank" class="hover:text-gray-400 underline">Agrolatam</a> · <a href="https://www.fortunebusinessinsights.com/biopesticides-market-102023.html" target="_blank" class="hover:text-gray-400 underline">Fortune Business Insights</a></div>
 </div>
 
 <div class="bg-blue-950/40 border border-blue-700 rounded-xl p-4 text-center">
@@ -390,23 +464,42 @@ class: 'bg-gray-950 text-white'
   <div class="text-4xl font-black text-white">USD 3.5B</div>
   <div class="text-xs text-gray-400 mt-1">Argentina · mercado de fitosanitarios</div>
   <div class="text-xs text-gray-500 mt-1">🇦🇷 Primer mercado objetivo de Lipock</div>
-  <div class="text-xs text-gray-600 mt-1">SENASA</div>
+  <div class="text-xs text-gray-600 mt-1"><a href="https://www.argentina.gob.ar/senasa" target="_blank" class="hover:text-gray-400 underline">SENASA</a></div>
 </div>
 
 </div>
 
 <div v-click class="bg-green-950/30 border border-green-700 rounded-xl p-3 text-center mb-3">
-  <div class="text-gray-400 text-xs mb-1">Con el <span class="text-white font-semibold">1% del mercado LATAM</span> convertido a biopesticidas</div>
-  <div class="text-4xl font-black text-green-400">USD 233M ARR</div>
+  <div class="text-gray-400 text-xs mb-1">Con el <span class="text-white font-semibold">0.4% del mercado LATAM</span> convertido a biopesticidas</div>
+  <div class="text-4xl font-black text-green-400">USD 100M ARR</div>
   <div class="text-gray-400 text-xs mt-1">revenue anual recurrente potencial</div>
+  <div class="border-t border-green-800/50 mt-3 pt-2">
+    <div class="text-green-600 text-xs font-semibold uppercase tracking-wider text-center mb-2">Lo que nos proponemos lograr en 3–5 años</div>
+    <div class="grid grid-cols-3 gap-2">
+      <div class="text-center">
+        <div class="text-lg font-black text-white">~490</div>
+        <div class="text-xs text-gray-400">productores<br/>(+2,000 ha c/u)</div>
+      </div>
+      <div class="text-center">
+        <div class="text-lg font-black text-white">~980K ha</div>
+        <div class="text-xs text-gray-400">usando<br/>nuestro producto</div>
+      </div>
+      <div class="text-center">
+        <div class="text-lg font-black text-white">~1.3M L</div>
+        <div class="text-xs text-gray-400">vendidos<br/>por año</div>
+      </div>
+    </div>
+    <div class="text-center mt-2 text-xs text-gray-500">🥑 palta &nbsp;·&nbsp; 🫐 arándanos &nbsp;·&nbsp; 🍊 cítricos</div>
+  </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 text-center">
-  <div class="text-gray-300 text-sm font-medium">🇧🇷 Brasil · Ley 15.700 · <span class="text-white font-semibold">primera ley de bioinsumos del mundo</span></div>
-  <div class="text-gray-300 text-sm font-medium">🇦🇷 Argentina · <strong class="text-red-400">si no cumple LMR, no entra a la UE</strong></div>
+<div class="grid grid-cols-3 gap-3 text-center">
+  <div class="text-gray-300 text-sm font-medium">🇧🇷 Brasil · Ley 15.700 · <span class="text-white font-semibold">primera ley de bioinsumos del mundo</span> · mayor consumidor de pesticidas del planeta · <span class="text-green-400 font-semibold">mercado bioinsumos proyectado USD 6B para 2030</span></div>
+  <div class="text-gray-300 text-sm font-medium">🇦🇷 Argentina · <strong class="text-red-400">si no cumple LMR (Límite Máximo de Residuos), no entra a la UE</strong></div>
+  <div class="text-gray-300 text-sm font-medium">🫐 <span class="text-white font-semibold">50 productores</span> concentran toda la exportación de arándanos · <span class="text-white font-semibold">~30,000 ton/año</span> · <span class="text-green-400 font-semibold">~USD 150M</span></div>
 </div>
 
-<div class="footnote">Market.us · Fortune Business Insights · Agrolatam</div>
+<div style="position:absolute; bottom:12px; left:0; right:0; width:100%; text-align:center;" class="text-xs text-gray-600 italic"><a href="https://market.us/report/biopesticides-market/" target="_blank" class="hover:text-gray-400 underline">Market.us</a> · <a href="https://www.fortunebusinessinsights.com/biopesticides-market-102023.html" target="_blank" class="hover:text-gray-400 underline">Fortune Business Insights</a> · <a href="https://agrolatam.com/" target="_blank" class="hover:text-gray-400 underline">Agrolatam</a></div>
 
 <!--
 TAM: USD 71.5B mercado global de pesticidas 2024, proyectado a USD 133B en 2034 (CAGR 6.4%). SAM: USD 8.57B mercado global de biopesticidas, creciendo al 16.72% anual hacia USD 29.24B en 2032. SOM: Argentina + Brasil = ~USD 18B del mercado regional de USD 23.3B en LATAM. Con 1% de conversión: USD 180M ARR.
@@ -489,9 +582,11 @@ class: 'bg-gray-950 text-white'
 
 </div>
 
-<div class="mt-4 text-gray-400 text-xs font-semibold uppercase tracking-wider mb-2">Alianzas clave</div>
+<div class="mt-6 mb-3 text-center">
+  <div class="inline-block text-gray-400 text-xs font-semibold uppercase tracking-widest border-t border-gray-700 pt-3 px-8">Alianzas clave (próximamente)</div>
+</div>
 
-<div class="grid grid-cols-5 gap-3">
+<div class="grid grid-cols-5 gap-3 mt-2">
 
 <div class="team-card flex flex-col items-center text-center cursor-pointer">
   <div class="team-border w-20 h-20 rounded-full border-2 border-yellow-500 overflow-hidden mb-2 bg-gray-800">
@@ -535,6 +630,9 @@ class: 'bg-gray-950 text-white'
 
 </div>
 
+<div class="mt-6 text-center">
+  <span class="text-2xl font-black text-green-400">¿Te sumás?</span>
+</div>
 
 <!--
 Equipo interdisciplinario + alianzas clave: CREA, INTA, Aprecid, IndieBio, UniBio, Antom. Red de acceso a productores, validación y capital inteligente.
@@ -545,7 +643,7 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<h1 class="text-3xl font-black text-white mb-1">La <span class="text-green-400">propuesta</span></h1>
+<h1 class="text-3xl font-black text-white mb-1 text-center">La <span class="text-green-400">propuesta</span></h1>
 
 <div class="grid grid-cols-2 gap-10 mt-4">
 
@@ -653,6 +751,16 @@ class: 'bg-gradient-to-br from-gray-950 via-green-950 to-gray-950 text-white'
 <!--
 Cierre. La pregunta para el inversor es simple: ¿quieren estar del lado de la industria que llega tarde, o del lado de la tecnología que hace posible la transición?
 -->
+
+---
+layout: center
+class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
+---
+
+<div class="text-center">
+  <div class="text-8xl font-black text-white mb-4">Preguntas</div>
+  <div class="text-green-400 text-xl font-medium">Me interesa escucharlos.</div>
+</div>
 
 ---
 layout: default

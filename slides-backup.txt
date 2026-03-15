@@ -1,0 +1,235 @@
+LIPOCK — PITCH DECK · BACKUP EN TEXTO
+======================================
+CEO Challenge · Jorge Roldán
+======================================
+
+SLIDE 1 — PORTADA
+-----------------
+¿Sabés cuántos pesticidas químicos tienen las frutas y verduras que comiste hoy?
+
+LIPOCK
+Biotecnología que la agroindustria quiere y puede pagar
+
+CEO Challenge · Jorge Roldán
+
+[Nota: Bienvenida. Lipock es una empresa de biotecnología que resuelve el problema de la agroindustria: cómo reemplazar los químicos sintéticos — en los alimentos que comemos y en los cultivos que producimos — sin sacrificar márgenes.]
+
+
+SLIDE 2 — EL PROBLEMA: "Tres desafíos. Un sistema roto."
+---------------------------------------------------------
+La mayoría sigue usando pesticidas químicos.
+Las consecuencias son silenciosas...
+
+PERSONAS
+  50% de los alimentos con residuos agrotóxicos
+  Para tu familia: altera las hormonas → ansiedad, pérdida de memoria, problemas de fertilidad. Sin síntomas visibles al principio.
+  Para el productor: Europa endurece límites. Sin cumplir, se pierde acceso a mercados más sofisticados. Acceso al mercado mejor pago en juego.
+  Fuente: EFSA 2024 · Hesperian Health
+
+PRODUCCIÓN
+  1 de 2 principios activos fitosanitarios viene de China
+  Para el productor: Cada insumo se paga en dólares. Cualquier sacudón externo se traduce en riesgo de margen variable, costos impredecibles. Devaluación o arancel nuevo = pérdida directa.
+  Soberanía Alimentaria: Proveedor al otro lado del mundo — dependencia que genera fragilidad al negocio y al país.
+  Fuente: SENASA
+
+PLANETA
+  40% del suelo agrícola está degradado
+  Para el campo: Residuos que duran décadas bloquean la transición → tierra que vale menos cada año, opciones de mercado que se cierran. La certificación orgánica vale hasta 50% más.
+  Para el productor: El suelo es el activo más valioso. Los agroquímicos lo destruyen temporada a temporada. Es destruir el capital de base.
+  Fuente: FAO / Scherr & Yadav
+
+[Nota: 3,7 millones de toneladas de pesticidas al año, el doble que en 1990.]
+
+
+SLIDE 3 — LA PREGUNTA
+---------------------
+¿Cómo hacer biopesticidas tan efectivos y baratos
+que la agroindustria reduzca insumos químicos sin sacrificar rentabilidad ni rendimiento,
+y al mismo tiempo cuide la tierra?
+
+
+SLIDE 4 — LA SOLUCIÓN: Nanocápsulas lipídicas
+----------------------------------------------
+Biopesticidas accesibles a través de nanocápsulas lipídicas, biodegradables y comestibles,
+que encapsulan biocompuestos naturales como los aceites esenciales con propiedades antimicrobianas y antioxidantes.
+
+Métricas clave:
+  80%     — menos volatilidad (imperfecciones intencionales)
+  12 meses — estabilidad · bioadhesión anti-lavado
+  25×     — menos dosis necesaria
+
+Biodegradables · Comestibles · Cera de carnauba + aceites esenciales
+Fuente: Múnera-Echeverri et al., Colloids and Interfaces, 2024 · MDPI | Patente provisional USPTO · Licencia U. Antioquia
+
+[Nota: NLC: 80% menos volatilidad, 12 meses estable, 25 veces menos dosis.]
+
+
+SLIDE 5 — DETALLE DE LA SOLUCIÓN
+---------------------------------
+Modo de acción dual (ver imagen modo-accion-dual.png)
+
+
+SLIDE 6 — DIFERENCIACIÓN: Tabla comparativa
+--------------------------------------------
+¿En qué nos diferenciamos?
+
+Atributo clave               | Lipock | Unibaio | Eden Research | Vexxel | Sintético conv. (Abamectina)
+-----------------------------|--------|---------|---------------|--------|-----------------------------
+Sin residuo en suelo/alimento|  ✅   |   ❌   |      ✅      |  🟡   |          ❌
+Principio activo 100% natural|  ✅   |   ❌   |      ✅      |  ❌   |          ❌
+Reducción de dosis ≥ 20x     |  ✅   |   🟡   |      ❌      |  🟡   |          ❌
+Materias primas Latam        |  ✅   |   ✅   |      ❌      |  ❌   |          ❌
+Sin solventes tóxicos        |  ✅   |   🟡   |      ❌      |  ❌   |          ❌
+Potencial otras industrias   |  ✅   |   ❌   |      ❌      |  ❌   |          ❌
+
+✅ confirmado · 🟡 parcial o en desarrollo · ❌ no aplica / no documentado
+
+
+SLIDE 7 — MERCADO
+-----------------
+La oportunidad de mercado
+El negocio está en convertir una fracción del mercado de pesticidas químicos — que ya existe, ya se compra, ya se presupuesta.
+
+TAM · Mercado global
+  USD 71.5B — Pesticidas a nivel mundial · 2024
+  → USD 133B en 2034 · CAGR 6.4%
+  Fuente: Market.us
+
+SAM · América Latina
+  USD 23.3B — Fitosanitarios en América del Sur y Central · 2024
+  Biopesticidas crecen al CAGR 16.72%
+  Fuente: Agrolatam · Fortune Business Insights
+
+SOM · Mercado primario
+  USD 3.5B — Argentina · mercado de fitosanitarios
+  🇦🇷 Primer mercado objetivo de Lipock
+  Fuente: SENASA
+
+Con el 0.4% del mercado LATAM convertido a biopesticidas:
+  USD 100M ARR — revenue anual recurrente potencial
+
+Lo que nos proponemos lograr en 3–5 años:
+  ~490 productores (+2,000 ha c/u)
+  ~980K ha usando nuestro producto
+  ~1.3M L vendidos por año
+  🥑 palta · 🫐 arándanos · 🍊 cítricos
+
+Contexto regional:
+  🇧🇷 Brasil · Ley 15.700 · primera ley de bioinsumos del mundo · mayor consumidor de pesticidas del planeta · mercado bioinsumos proyectado USD 6B para 2030
+  🇦🇷 Argentina · si no cumple LMR (Límite Máximo de Residuos), no entra a la UE
+  🫐 50 productores concentran toda la exportación de arándanos · ~30,000 ton/año · ~USD 150M
+
+[Nota: TAM: USD 71.5B mercado global pesticidas 2024, proyectado a USD 133B en 2034.]
+
+
+SLIDE 8 — EQUIPO
+----------------
+Hay equipo — articulando con el ecosistema
+
+EQUIPO CORE:
+  Alejandro Múnera     — Químico Farmacéutico · Formulación · U. Antioquia
+  Freimar Segura       — Químico Farmacéutico · Farmacotecnia · U. Antioquia
+  Danilo Echeverri     — Ingeniero Biológico · Nanociencia · U. Nacional
+  Jose Luis Múnera     — Ingeniero Agrónomo · Bioinformática · U. Nacional
+  Jorge Roldán         — Ing. Industrial y de Sistemas · Tec de Monterrey
+
+ALIANZAS CLAVE:
+  Maty Bunge           — Ex-Presidenta CREA
+  Julia Mensa          — Founder Nunatak
+  Vera Alvarez         — Women in Science
+  Rubén Altman         — ClimaTech
+  Juan M. Garrido      — El Gato y La Caja
+
+¿Te sumás?
+
+[Nota: Equipo interdisciplinario + alianzas clave: CREA, INTA, Aprecid, IndieBio, UniBio, Antom.]
+
+
+SLIDE 9 — LA PROPUESTA
+-----------------------
+La propuesta
+
+USD 250K por 25% equity
+Pre-money: USD 750K
+Runway: 18 meses
+
+Distribución del capital:
+  40% — I+D (Investigación y Desarrollo)
+  30% — Campo & Patentes
+  30% — Talento & Ops
+
+Este capital desbloquea:
+  ✓ Pilotos en cultivos estratégicos con la red de testeo de CREA (Consorcios Regionales de Experimentación Agrícola)
+  ✓ Estrategia comercial para los primeros contratos e historias de éxito
+  ✓ Registros de propiedad intelectual en cultivos estratégicos
+
+¿Por qué GRIDx?
+  Base científico-tecnológica alineada. Red que acelera validación industrial.
+
+[Nota: Pedimos 250 mil dólares por el 25% de equity.]
+
+
+SLIDE 10 — CIERRE
+-----------------
+LIPOCK
+Biotecnología que la agroindustria quiere y puede pagar.
+
+El futuro es biológico.
+"Plantas que cuidan otras plantas"
+
+🍎 Comida saludable  ·  🌾 Mejor producción  ·  🌱 Cuidar la tierra
+
+¿Te sumás?
+
+[Nota: La pregunta para el inversor es simple: ¿quieren estar del lado de la industria que llega tarde, o del lado de la tecnología que hace posible la transición?]
+
+
+SLIDE 11 — PREGUNTAS
+--------------------
+Preguntas
+Me interesa escucharlos.
+
+
+SLIDE 12 — ANEXO: Comparación de precio
+-----------------------------------------
+Anexo · Comparación de precio
+
+Pesticida convencional (HOY)
+  Dosis/app:              1 L/ha
+  Aplicaciones/año:       16
+  Litros totales/año:     1,600 L
+  Precio:                 $18/L
+  Residuo en suelo:       Sí, persiste
+  Dep. dólar:             Alta (China/USA)
+  Certif. orgánico:       No
+  GASTO ANUAL — 100 ha:   $29,000
+
+Lipock (nanocápsulas lipídicas)
+  Dosis/app:              80 ml/ha (−25x)
+  Aplicaciones/año:       16
+  Litros totales/año:     128 L
+  Precio:                 $80/L
+  Residuo en suelo:       No (GRAS, biodeg.)
+  Dep. dólar:             Baja (local)
+  Certif. orgánico:       Potencial
+  GASTO ANUAL — 100 ha:   $10,000  ← ahorra $19k (64%)
+
+Unibaio (aditivo encapsulante)
+  Dosis conv. reducida:   0.3 L/ha (−70%)
+  Aplicaciones/año:       16
+  Litros totales/año:     528 L
+  Precio aditivo:         ~$45/L
+  Residuo en suelo:       Sí (conv. sigue)
+  Dep. dólar:             Media (mix)
+  Certif. orgánico:       No
+  GASTO ANUAL — 100 ha:   $11,000  ← ahorra $18k (63%)
+
+Con 100 ha, Lipock es la opción más económica — ahorra $19k/año versus las pesticidas químicas tradicionales.
+La venta se puede hacer enteramente por economía: sin necesitar la conversación de sustentabilidad.
+
+[Nota: La propuesta de valor de Lipock funciona incluso sin la conversación de sustentabilidad.]
+
+======================================
+FIN DEL BACKUP
+Generado: 2026-03-15
+======================================
