@@ -383,15 +383,15 @@ class: 'bg-gray-950 text-white'
   <div class="space-y-4">
     <div class="flex items-start gap-3">
       <div class="text-green-400 text-base mt-0.5">&#10003;</div>
-      <div class="text-base text-white">Pilotos de campo en arándano y aguacate</div>
+      <div class="text-base text-white">Pilotos en cultivos estratégicos con la red de testeo de CREA</div>
     </div>
     <div class="flex items-start gap-3">
       <div class="text-green-400 text-base mt-0.5">&#10003;</div>
-      <div class="text-base text-white">Primer contrato de suministro</div>
+      <div class="text-base text-white">Estrategia comercial para los primeros contratos e historias de éxito</div>
     </div>
     <div class="flex items-start gap-3">
       <div class="text-green-400 text-base mt-0.5">&#10003;</div>
-      <div class="text-base text-white">Registro SENASA + homologación UE</div>
+      <div class="text-base text-white">Registros de propiedad intelectual en cultivos estratégicos</div>
     </div>
   </div>
 
