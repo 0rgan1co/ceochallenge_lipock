@@ -8,6 +8,7 @@ highlighter: shiki
 transition: slide-left
 mdc: true
 canvasWidth: 1150
+slideNumber: true
 fonts:
   sans: Inter
   mono: Fira Code
