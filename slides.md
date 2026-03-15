@@ -59,7 +59,7 @@ class: 'bg-gray-950 text-white'
 
 <div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-1">Tres desafíos. Un sistema roto.</div>
 
-# La mayoría de los productores siguen usando pesticidas químicos
+<h1 class="text-3xl font-black text-white mb-1">La mayoría sigue usando <span class="text-red-400">pesticidas químicos</span></h1>
 
 <div class="text-gray-400 text-sm mb-2">Las consecuencias son <span class="text-orange-400 font-semibold">silenciosas</span>...</div>
 
@@ -169,7 +169,7 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-# Nanocápsulas lipídicas — la solución
+<h1 class="text-3xl font-black text-white mb-1">Nanocápsulas lipídicas — <span class="text-green-400">la solución</span></h1>
 
 <div class="grid grid-cols-3 gap-6 mt-4 mb-6 items-center">
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
@@ -228,7 +228,7 @@ layout: center
 class: 'bg-gray-950 text-white'
 ---
 
-# Detalle de la solución
+<h1 class="text-3xl font-black text-white mb-1">Detalle de <span class="text-green-400">la solución</span></h1>
 
 <div class="mt-4">
   <img src="/images/modo-accion-dual.png" class="w-full rounded-2xl" />
@@ -330,41 +330,41 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-# La oportunidad de mercado
+<h1 class="text-3xl font-black text-white mb-1">La <span class="text-green-400">oportunidad</span> de mercado</h1>
 
 <div class="text-gray-400 text-xs mb-3">El negocio está en convertir una fracción del mercado de <span class="text-white font-semibold">pesticidas químicos</span> — que ya existe, ya se compra, ya se presupuesta.</div>
 
 <div class="grid grid-cols-3 gap-4 mb-3">
 
 <div class="bg-green-950/40 border border-green-700 rounded-xl p-4 text-center">
-  <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-1">TAM · Mercado total</div>
+  <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-1">TAM · Mercado global</div>
   <div class="text-4xl font-black text-white">USD 71.5B</div>
-  <div class="text-xs text-gray-400 mt-1">Mercado global de pesticidas 2024</div>
+  <div class="text-xs text-gray-400 mt-1">Pesticidas a nivel mundial · 2024</div>
   <div class="text-xs text-green-500 mt-1">→ USD 133B en 2034 · CAGR 6.4%</div>
   <div class="text-xs text-gray-600 mt-1">Market.us</div>
 </div>
 
 <div class="bg-purple-950/40 border border-purple-700 rounded-xl p-4 text-center">
-  <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-1">SAM · Segmento biopesticidas</div>
-  <div class="text-4xl font-black text-white">USD 8.57B</div>
-  <div class="text-xs text-gray-400 mt-1">Mercado global de biopesticidas 2024</div>
-  <div class="text-xs text-purple-400 mt-1">→ USD 29.24B en 2032 · CAGR 16.72%</div>
-  <div class="text-xs text-gray-600 mt-1">Fortune Business Insights</div>
+  <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-1">SAM · América Latina</div>
+  <div class="text-4xl font-black text-white">USD 23.3B</div>
+  <div class="text-xs text-gray-400 mt-1">Fitosanitarios en América del Sur y Central · 2024</div>
+  <div class="text-xs text-purple-400 mt-1">Biopesticidas crecen al CAGR 16.72%</div>
+  <div class="text-xs text-gray-600 mt-1">Agrolatam · Fortune Business Insights</div>
 </div>
 
 <div class="bg-blue-950/40 border border-blue-700 rounded-xl p-4 text-center">
-  <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-1">SOM · Mercado accesible</div>
-  <div class="text-4xl font-black text-white">USD 18B</div>
-  <div class="text-xs text-gray-400 mt-1">Argentina + Brasil (mercado regional)</div>
-  <div class="text-xs text-gray-500 mt-1">🇦🇷 USD 3.5B · 🇧🇷 USD 14.8B</div>
-  <div class="text-xs text-gray-600 mt-1">Agrolatam · LATAM total USD 23.3B</div>
+  <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-1">SOM · Mercado primario</div>
+  <div class="text-4xl font-black text-white">~USD 20B</div>
+  <div class="text-xs text-gray-400 mt-1">Colombia · Argentina · Brasil</div>
+  <div class="text-xs text-gray-500 mt-1">🇨🇴 ~USD 1.7B · 🇦🇷 USD 3.5B · 🇧🇷 USD 14.8B</div>
+  <div class="text-xs text-gray-600 mt-1">Agrolatam · SENASA · MAPA Brasil</div>
 </div>
 
 </div>
 
 <div v-click class="bg-green-950/30 border border-green-700 rounded-xl p-3 text-center mb-3">
-  <div class="text-gray-400 text-xs mb-1">Si convertimos el <span class="text-white font-semibold">1% del mercado regional</span> a biopesticidas</div>
-  <div class="text-4xl font-black text-green-400">USD 180M ARR</div>
+  <div class="text-gray-400 text-xs mb-1">Con el <span class="text-white font-semibold">1% del mercado LATAM</span> convertido a biopesticidas</div>
+  <div class="text-4xl font-black text-green-400">USD 233M ARR</div>
   <div class="text-gray-400 text-xs mt-1">revenue anual recurrente potencial</div>
 </div>
 
@@ -466,7 +466,7 @@ class: 'bg-gray-950 text-white'
   </svg>
 </div>
 
-# Hay equipo — y queremos hacerlo articulando con el ecosistema
+<h1 class="text-3xl font-black text-white mb-1">Hay <span class="text-green-400">equipo</span> — articulando con el ecosistema</h1>
 
 <style>
 .team-card img {
@@ -587,7 +587,7 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-# La propuesta
+<h1 class="text-3xl font-black text-white mb-1">La <span class="text-green-400">propuesta</span></h1>
 
 <div class="grid grid-cols-2 gap-10 mt-4">
 
