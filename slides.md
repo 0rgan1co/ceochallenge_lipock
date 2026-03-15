@@ -236,70 +236,70 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-3">Anexo · Comparación de precio</div>
+<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-2">Anexo · Comparación de precio</div>
 
-<div class="grid grid-cols-3 gap-4 mb-4">
+<div class="grid grid-cols-3 gap-3 mb-3">
 
-  <div class="bg-gray-900 border border-gray-700 rounded-2xl p-4 flex flex-col">
-    <div class="mb-3"><span class="bg-gray-800 text-gray-300 text-xs font-semibold px-3 py-1 rounded-full">hoy</span></div>
-    <div class="text-white text-lg font-bold mb-4">Pesticida convencional</div>
-    <div class="space-y-2 flex-1 text-sm">
+  <div class="bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col">
+    <div class="mb-2"><span class="bg-gray-800 text-gray-300 text-xs font-semibold px-2 py-0.5 rounded-full">hoy</span></div>
+    <div class="text-white text-sm font-bold mb-2">Pesticida convencional</div>
+    <div class="space-y-1 flex-1 text-xs">
       <div class="flex justify-between"><span class="text-gray-400">Dosis/app</span><span class="text-orange-400 font-semibold">1 L/ha</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Aplicaciones/año</span><span class="text-white font-semibold">16</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Litros totales/año</span><span class="text-white font-semibold">1600 L</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Precio</span><span class="text-white font-semibold">$18/L</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Residuo en suelo</span><span class="text-orange-400 font-semibold">Sí, persiste</span></div>
-      <div class="flex justify-between"><span class="text-gray-400">Dependencia dólar</span><span class="text-orange-400 font-semibold">Alta (China/USA)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Dep. dólar</span><span class="text-orange-400 font-semibold">Alta (China/USA)</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Certif. orgánico</span><span class="text-orange-400 font-semibold">No</span></div>
     </div>
-    <div class="mt-4 bg-gray-800 rounded-xl p-3">
-      <div class="text-gray-400 text-xs mb-1">gasto anual — 100 ha</div>
-      <div class="text-orange-400 text-3xl font-black">$29k</div>
+    <div class="mt-2 bg-gray-800 rounded-lg p-2">
+      <div class="text-gray-400 text-xs">gasto anual — 100 ha</div>
+      <div class="text-orange-400 text-2xl font-black">$29k</div>
     </div>
   </div>
 
-  <div class="bg-gray-900 border-2 border-blue-500 rounded-2xl p-4 flex flex-col">
-    <div class="mb-3"><span class="bg-blue-500/20 text-blue-300 text-xs font-semibold px-3 py-1 rounded-full">lipock</span></div>
-    <div class="text-white text-lg font-bold mb-4">Nanocápsulas lipídicas</div>
-    <div class="space-y-2 flex-1 text-sm">
+  <div class="bg-gray-900 border-2 border-blue-500 rounded-xl p-3 flex flex-col">
+    <div class="mb-2"><span class="bg-blue-500/20 text-blue-300 text-xs font-semibold px-2 py-0.5 rounded-full">lipock</span></div>
+    <div class="text-white text-sm font-bold mb-2">Nanocápsulas lipídicas</div>
+    <div class="space-y-1 flex-1 text-xs">
       <div class="flex justify-between"><span class="text-gray-400">Dosis/app</span><span class="text-green-400 font-semibold">80 ml/ha (−25x)</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Aplicaciones/año</span><span class="text-white font-semibold">16</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Litros totales/año</span><span class="text-green-400 font-semibold">128 L</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Precio</span><span class="text-white font-semibold">$80/L</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Residuo en suelo</span><span class="text-green-400 font-semibold">No (GRAS, biodeg.)</span></div>
-      <div class="flex justify-between"><span class="text-gray-400">Dependencia dólar</span><span class="text-green-400 font-semibold">Baja (local)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Dep. dólar</span><span class="text-green-400 font-semibold">Baja (local)</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Certif. orgánico</span><span class="text-blue-400 font-semibold">Potencial</span></div>
     </div>
-    <div class="mt-4 bg-gray-800 rounded-xl p-3">
-      <div class="text-gray-400 text-xs mb-1">gasto anual — 100 ha</div>
-      <div class="text-green-400 text-3xl font-black">$10k</div>
-      <div class="mt-2 inline-block bg-green-950 border border-green-700 text-green-300 text-xs font-semibold px-3 py-1 rounded-full">ahorra $19k (64%)</div>
+    <div class="mt-2 bg-gray-800 rounded-lg p-2">
+      <div class="text-gray-400 text-xs">gasto anual — 100 ha</div>
+      <div class="text-green-400 text-2xl font-black">$10k</div>
+      <div class="mt-1 inline-block bg-green-950 border border-green-700 text-green-300 text-xs font-semibold px-2 py-0.5 rounded-full">ahorra $19k (64%)</div>
     </div>
   </div>
 
-  <div class="bg-gray-900 border border-gray-700 rounded-2xl p-4 flex flex-col">
-    <div class="mb-3"><span class="bg-teal-900/50 text-teal-300 text-xs font-semibold px-3 py-1 rounded-full">unibaio (modelo)</span></div>
-    <div class="text-white text-lg font-bold mb-4">Aditivo encapsulante</div>
-    <div class="space-y-2 flex-1 text-sm">
+  <div class="bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col">
+    <div class="mb-2"><span class="bg-teal-900/50 text-teal-300 text-xs font-semibold px-2 py-0.5 rounded-full">unibaio (modelo)</span></div>
+    <div class="text-white text-sm font-bold mb-2">Aditivo encapsulante</div>
+    <div class="space-y-1 flex-1 text-xs">
       <div class="flex justify-between"><span class="text-gray-400">Dosis conv. reducida</span><span class="text-white font-semibold">0.3 L/ha (−70%)</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Aplicaciones/año</span><span class="text-white font-semibold">16</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Litros totales/año</span><span class="text-white font-semibold">528 L</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Precio aditivo</span><span class="text-white font-semibold">~$45/L</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Residuo en suelo</span><span class="text-orange-400 font-semibold">Sí (conv. sigue)</span></div>
-      <div class="flex justify-between"><span class="text-gray-400">Dependencia dólar</span><span class="text-orange-400 font-semibold">Media (mix)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Dep. dólar</span><span class="text-orange-400 font-semibold">Media (mix)</span></div>
       <div class="flex justify-between"><span class="text-gray-400">Certif. orgánico</span><span class="text-orange-400 font-semibold">No</span></div>
     </div>
-    <div class="mt-4 bg-gray-800 rounded-xl p-3">
-      <div class="text-gray-400 text-xs mb-1">gasto anual — 100 ha</div>
-      <div class="text-green-400 text-3xl font-black">$11k</div>
-      <div class="mt-2 inline-block bg-green-950 border border-green-700 text-green-300 text-xs font-semibold px-3 py-1 rounded-full">ahorra $18k (63%)</div>
+    <div class="mt-2 bg-gray-800 rounded-lg p-2">
+      <div class="text-gray-400 text-xs">gasto anual — 100 ha</div>
+      <div class="text-green-400 text-2xl font-black">$11k</div>
+      <div class="mt-1 inline-block bg-green-950 border border-green-700 text-green-300 text-xs font-semibold px-2 py-0.5 rounded-full">ahorra $18k (63%)</div>
     </div>
   </div>
 
 </div>
 
-<div class="bg-blue-950/30 border border-blue-700/60 rounded-xl p-4 text-sm text-gray-300 leading-relaxed">
-  Con 100 ha, Lipock es la opción más económica de las tres — ahorra <strong class="text-white">$19k/año</strong> vs convencional y <strong class="text-white">$560/año</strong> vs Unibaio. La venta se puede hacer enteramente por economía: sin necesitar la conversación de sustentabilidad.
+<div class="bg-blue-950/30 border border-blue-700/60 rounded-lg p-3 text-xs text-gray-300 leading-relaxed">
+  Con 100 ha, Lipock es la opción más económica — ahorra <strong class="text-white">$19k/año</strong> vs convencional y <strong class="text-white">$560/año</strong> vs Unibaio. La venta se puede hacer enteramente por economía: sin necesitar la conversación de sustentabilidad.
 </div>
 
 <!--
