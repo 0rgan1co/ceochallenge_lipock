@@ -236,6 +236,81 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
+<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-3">Anexo · Comparación de precio</div>
+
+<div class="grid grid-cols-3 gap-4 mb-4">
+
+  <div class="bg-gray-900 border border-gray-700 rounded-2xl p-4 flex flex-col">
+    <div class="mb-3"><span class="bg-gray-800 text-gray-300 text-xs font-semibold px-3 py-1 rounded-full">hoy</span></div>
+    <div class="text-white text-lg font-bold mb-4">Pesticida convencional</div>
+    <div class="space-y-2 flex-1 text-sm">
+      <div class="flex justify-between"><span class="text-gray-400">Dosis/app</span><span class="text-orange-400 font-semibold">1 L/ha</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Aplicaciones/año</span><span class="text-white font-semibold">16</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Litros totales/año</span><span class="text-white font-semibold">1600 L</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Precio</span><span class="text-white font-semibold">$18/L</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Residuo en suelo</span><span class="text-orange-400 font-semibold">Sí, persiste</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Dependencia dólar</span><span class="text-orange-400 font-semibold">Alta (China/USA)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Certif. orgánico</span><span class="text-orange-400 font-semibold">No</span></div>
+    </div>
+    <div class="mt-4 bg-gray-800 rounded-xl p-3">
+      <div class="text-gray-400 text-xs mb-1">gasto anual — 100 ha</div>
+      <div class="text-orange-400 text-3xl font-black">$29k</div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900 border-2 border-blue-500 rounded-2xl p-4 flex flex-col">
+    <div class="mb-3"><span class="bg-blue-500/20 text-blue-300 text-xs font-semibold px-3 py-1 rounded-full">lipock</span></div>
+    <div class="text-white text-lg font-bold mb-4">Nanocápsulas lipídicas</div>
+    <div class="space-y-2 flex-1 text-sm">
+      <div class="flex justify-between"><span class="text-gray-400">Dosis/app</span><span class="text-green-400 font-semibold">80 ml/ha (−25x)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Aplicaciones/año</span><span class="text-white font-semibold">16</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Litros totales/año</span><span class="text-green-400 font-semibold">128 L</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Precio</span><span class="text-white font-semibold">$80/L</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Residuo en suelo</span><span class="text-green-400 font-semibold">No (GRAS, biodeg.)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Dependencia dólar</span><span class="text-green-400 font-semibold">Baja (local)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Certif. orgánico</span><span class="text-blue-400 font-semibold">Potencial</span></div>
+    </div>
+    <div class="mt-4 bg-gray-800 rounded-xl p-3">
+      <div class="text-gray-400 text-xs mb-1">gasto anual — 100 ha</div>
+      <div class="text-green-400 text-3xl font-black">$10k</div>
+      <div class="mt-2 inline-block bg-green-950 border border-green-700 text-green-300 text-xs font-semibold px-3 py-1 rounded-full">ahorra $19k (64%)</div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900 border border-gray-700 rounded-2xl p-4 flex flex-col">
+    <div class="mb-3"><span class="bg-teal-900/50 text-teal-300 text-xs font-semibold px-3 py-1 rounded-full">unibaio (modelo)</span></div>
+    <div class="text-white text-lg font-bold mb-4">Aditivo encapsulante</div>
+    <div class="space-y-2 flex-1 text-sm">
+      <div class="flex justify-between"><span class="text-gray-400">Dosis conv. reducida</span><span class="text-white font-semibold">0.3 L/ha (−70%)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Aplicaciones/año</span><span class="text-white font-semibold">16</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Litros totales/año</span><span class="text-white font-semibold">528 L</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Precio aditivo</span><span class="text-white font-semibold">~$45/L</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Residuo en suelo</span><span class="text-orange-400 font-semibold">Sí (conv. sigue)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Dependencia dólar</span><span class="text-orange-400 font-semibold">Media (mix)</span></div>
+      <div class="flex justify-between"><span class="text-gray-400">Certif. orgánico</span><span class="text-orange-400 font-semibold">No</span></div>
+    </div>
+    <div class="mt-4 bg-gray-800 rounded-xl p-3">
+      <div class="text-gray-400 text-xs mb-1">gasto anual — 100 ha</div>
+      <div class="text-green-400 text-3xl font-black">$11k</div>
+      <div class="mt-2 inline-block bg-green-950 border border-green-700 text-green-300 text-xs font-semibold px-3 py-1 rounded-full">ahorra $18k (63%)</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="bg-blue-950/30 border border-blue-700/60 rounded-xl p-4 text-sm text-gray-300 leading-relaxed">
+  Con 100 ha, Lipock es la opción más económica de las tres — ahorra <strong class="text-white">$19k/año</strong> vs convencional y <strong class="text-white">$560/año</strong> vs Unibaio. La venta se puede hacer enteramente por economía: sin necesitar la conversación de sustentabilidad.
+</div>
+
+<!--
+Anexo precio: la propuesta de valor de Lipock funciona incluso sin la conversación de sustentabilidad.
+-->
+
+---
+layout: default
+class: 'bg-gray-950 text-white'
+---
+
 <div class="absolute inset-0 overflow-hidden opacity-10">
   <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <circle cx="10%" cy="20%" r="3" fill="#4ade80"/><circle cx="30%" cy="15%" r="2" fill="#4ade80"/><circle cx="50%" cy="25%" r="3" fill="#4ade80"/><circle cx="70%" cy="10%" r="2" fill="#4ade80"/><circle cx="90%" cy="22%" r="3" fill="#4ade80"/><circle cx="20%" cy="50%" r="2" fill="#4ade80"/><circle cx="40%" cy="45%" r="3" fill="#4ade80"/><circle cx="60%" cy="55%" r="2" fill="#4ade80"/><circle cx="80%" cy="48%" r="3" fill="#4ade80"/><circle cx="15%" cy="80%" r="2" fill="#4ade80"/><circle cx="35%" cy="75%" r="3" fill="#4ade80"/><circle cx="55%" cy="85%" r="2" fill="#4ade80"/><circle cx="75%" cy="78%" r="3" fill="#4ade80"/><circle cx="95%" cy="82%" r="2" fill="#4ade80"/>
