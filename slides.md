@@ -447,7 +447,7 @@ class: 'bg-gray-950 text-white'
 </div>
 
 <div class="bg-blue-950/30 border border-blue-700/60 rounded-lg p-3 text-xs text-gray-300 leading-relaxed">
-  Con 100 ha, Lipock es la opción más económica — ahorra <strong class="text-white">$19k/año</strong> vs convencional y <strong class="text-white">$560/año</strong> vs Unibaio. La venta se puede hacer enteramente por economía: sin necesitar la conversación de sustentabilidad.
+  Con 100 ha, Lipock es la opción más económica — ahorra <strong class="text-white">$19k/año</strong> versus las pesticidas químicas tradicionales. La venta se puede hacer enteramente por economía: sin necesitar la conversación de sustentabilidad.
 </div>
 
 <!--
