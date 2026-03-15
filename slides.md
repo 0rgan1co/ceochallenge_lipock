@@ -358,9 +358,8 @@ class: 'bg-gray-950 text-white'
   <div class="relative w-48 h-48">
     <svg viewBox="0 0 200 200" class="w-full h-full -rotate-90">
       <circle cx="100" cy="100" r="85" fill="none" stroke="#166534" stroke-width="30" stroke-dasharray="213.6 534" stroke-dashoffset="0" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#15803d" stroke-width="30" stroke-dasharray="133.5 534" stroke-dashoffset="-213.6" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#22c55e" stroke-width="30" stroke-dasharray="80.1 534" stroke-dashoffset="-347.1" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#4ade80" stroke-width="30" stroke-dasharray="106.8 534" stroke-dashoffset="-427.2" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#22c55e" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-213.6" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#4ade80" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-373.8" />
     </svg>
     <div class="absolute inset-0 flex items-center justify-center">
       <div class="text-center">
@@ -372,9 +371,8 @@ class: 'bg-gray-950 text-white'
 
   <div class="grid grid-cols-2 gap-x-6 gap-y-2 mt-4 text-sm">
     <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#166534]"></div><span class="text-gray-300">I+D · 40%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#15803d]"></div><span class="text-gray-300">Campo · 25%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#22c55e]"></div><span class="text-gray-300">Regulatorio · 15%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#4ade80]"></div><span class="text-gray-300">Operaciones · 20%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#22c55e]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#4ade80]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
   </div>
 </div>
 
