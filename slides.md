@@ -418,17 +418,18 @@ class: 'bg-gradient-to-br from-gray-950 via-green-950 to-gray-950 text-white'
     LI<span class="text-green-400">POCK</span>
   </div>
 
-  <div class="text-3xl text-gray-200 leading-relaxed mb-10">
-    "Que lo que comemos no nos enferme.<br>
-    Que lo que producimos <strong class="text-green-400">no destruya el campo</strong>."
+  <div class="text-5xl font-black text-white mb-4 leading-tight">
+    El futuro es <span class="text-green-400">biológico.</span>
+  </div>
+
+  <div class="text-xl text-gray-300 leading-relaxed mb-10">
+    Si te interesa que más plantas cuiden a otras plantas<br>
+    para que las personas tengamos <span class="text-green-400">alimentos más saludables</span>,<br>
+    hablemos.
   </div>
 
   <div class="bg-white/5 border border-white/10 rounded-2xl px-10 py-5 inline-block">
     <div class="text-green-300 text-xl font-medium">Biotecnología que la agroindustria puede pagar.</div>
-  </div>
-
-  <div class="mt-10 text-2xl text-white font-bold italic">
-    ¿Cómo podemos lograr que las plantas cuiden otras plantas?
   </div>
 
 </div>
