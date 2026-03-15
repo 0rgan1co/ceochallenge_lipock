@@ -56,54 +56,54 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-2">Tres dolores. Un sistema roto.</div>
+<div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-1">Tres dolores. Un sistema roto.</div>
 
 # La mayoría de los productores siguen usando pesticidas químicos
 
-<div class="text-gray-400 text-base mb-2">Las consecuencias son <span class="text-orange-400 font-semibold">silenciosas</span>...</div>
+<div class="text-gray-400 text-sm mb-2">Las consecuencias son <span class="text-orange-400 font-semibold">silenciosas</span>...</div>
 
-<div class="grid grid-cols-3 gap-5 mt-2">
+<div class="grid grid-cols-3 gap-3 mt-1">
 
-  <div class="relative bg-red-950/20 border border-red-700/60 rounded-2xl p-5 flex flex-col items-center text-center overflow-hidden">
-    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-700 to-red-400 rounded-t-2xl"></div>
-    <div class="text-3xl mb-2">🧑‍🤝‍🧑</div>
-    <div class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Personas</div>
-    <div class="text-6xl font-black text-white leading-none mb-1">1 de 2</div>
-    <div class="text-red-300 text-sm font-semibold mb-3">alimentos tiene residuos agrotóxicos</div>
-    <div class="w-full bg-red-950/50 border border-red-900/50 rounded-xl p-3 space-y-1">
+  <div class="relative bg-red-950/20 border border-red-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-700 to-red-400 rounded-t-xl"></div>
+    <div class="text-2xl mb-1">🧑‍🤝‍🧑</div>
+    <div class="text-red-400 text-xs font-bold uppercase tracking-widest mb-1">Personas</div>
+    <div class="text-4xl font-black text-white leading-none mb-1">1 de 2</div>
+    <div class="text-red-300 text-xs font-semibold mb-2">alimentos tiene residuos agrotóxicos</div>
+    <div class="w-full bg-red-950/50 border border-red-900/50 rounded-lg p-2 space-y-1">
       <div class="text-xs text-gray-300 font-semibold text-left mb-1">Consecuencias</div>
       <div class="text-xs text-gray-400 text-left">· Disrupción endocrina y neurotoxicidad crónica</div>
-      <div class="text-xs text-gray-400 text-left">· Europa endurece los límites cada ciclo — el productor convencional pierde contratos de exportación</div>
+      <div class="text-xs text-gray-400 text-left">· Europa endurece los límites — el productor pierde contratos de exportación</div>
     </div>
-    <div class="text-xs text-gray-600 mt-3">EFSA (Autoridad Europea de Seguridad Alimentaria) 2024</div>
+    <div class="text-xs text-gray-600 mt-2">EFSA 2024</div>
   </div>
 
-  <div class="relative bg-orange-950/20 border border-orange-700/60 rounded-2xl p-5 flex flex-col items-center text-center overflow-hidden">
-    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-700 to-orange-400 rounded-t-2xl"></div>
-    <div class="text-3xl mb-2">🌾</div>
-    <div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-3">Producción</div>
-    <div class="text-5xl font-black text-white leading-none mb-1">32%</div>
-    <div class="text-orange-300 text-sm font-semibold mb-3">de los fitosanitarios de LATAM viene de China</div>
-    <div class="w-full bg-orange-950/50 border border-orange-900/50 rounded-xl p-3 space-y-1">
+  <div class="relative bg-orange-950/20 border border-orange-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-700 to-orange-400 rounded-t-xl"></div>
+    <div class="text-2xl mb-1">🌾</div>
+    <div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-1">Producción</div>
+    <div class="text-4xl font-black text-white leading-none mb-1">32%</div>
+    <div class="text-orange-300 text-xs font-semibold mb-2">de los fitosanitarios de LATAM viene de China</div>
+    <div class="w-full bg-orange-950/50 border border-orange-900/50 rounded-lg p-2 space-y-1">
       <div class="text-xs text-gray-300 font-semibold text-left mb-1">Consecuencias</div>
-      <div class="text-xs text-gray-400 text-left">· La rentabilidad depende de una variable que no controlás: precio de insumos en dólares</div>
-      <div class="text-xs text-gray-400 text-left">· Cada devaluación o arancel golpea directo al margen del campo</div>
+      <div class="text-xs text-gray-400 text-left">· Rentabilidad atada al precio de insumos en dólares</div>
+      <div class="text-xs text-gray-400 text-left">· Cada devaluación o arancel golpea directo al margen</div>
     </div>
-    <div class="text-xs text-gray-600 mt-3">CropLife Latin America</div>
+    <div class="text-xs text-gray-600 mt-2">CropLife Latin America</div>
   </div>
 
-  <div class="relative bg-green-950/20 border border-green-700/60 rounded-2xl p-5 flex flex-col items-center text-center overflow-hidden">
-    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-700 to-green-400 rounded-t-2xl"></div>
-    <div class="text-3xl mb-2">🌍</div>
-    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-3">Planeta</div>
-    <div class="text-5xl font-black text-white leading-none mb-1">40%</div>
-    <div class="text-green-300 text-sm font-semibold mb-3">del suelo agrícola está degradado</div>
-    <div class="w-full bg-green-950/50 border border-green-900/50 rounded-xl p-3 space-y-1">
+  <div class="relative bg-green-950/20 border border-green-700/60 rounded-xl p-3 flex flex-col items-center text-center overflow-hidden">
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-700 to-green-400 rounded-t-xl"></div>
+    <div class="text-2xl mb-1">🌍</div>
+    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Planeta</div>
+    <div class="text-4xl font-black text-white leading-none mb-1">40%</div>
+    <div class="text-green-300 text-xs font-semibold mb-2">del suelo agrícola está degradado</div>
+    <div class="w-full bg-green-950/50 border border-green-900/50 rounded-lg p-2 space-y-1">
       <div class="text-xs text-gray-300 font-semibold text-left mb-1">Consecuencias</div>
-      <div class="text-xs text-gray-400 text-left">· Los residuos persisten décadas — impiden la transición a orgánico aunque dejes de aplicar</div>
-      <div class="text-xs text-gray-400 text-left">· La tierra es el activo más valioso — y se está destruyendo</div>
+      <div class="text-xs text-gray-400 text-left">· Residuos que persisten décadas — impiden la transición a orgánico</div>
+      <div class="text-xs text-gray-400 text-left">· La tierra es el activo más valioso — y se destruye</div>
     </div>
-    <div class="text-xs text-gray-600 mt-3">FAO (Organización de la ONU para la Alimentación) / Scherr & Yadav</div>
+    <div class="text-xs text-gray-600 mt-2">FAO / Scherr & Yadav</div>
   </div>
 
 </div>
