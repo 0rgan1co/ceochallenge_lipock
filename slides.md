@@ -338,31 +338,34 @@ class: 'bg-gray-950 text-white'
 
 <div class="bg-green-950/40 border border-green-700 rounded-xl p-4 text-center">
   <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-1">TAM · Mercado total</div>
-  <div class="text-4xl font-black text-white">USD 15B</div>
-  <div class="text-xs text-gray-400 mt-1">Pesticidas químicos en Latinoamérica</div>
-  <div class="text-xs text-gray-500 mt-1">Brasil + Argentina · CropLife LATAM 2023</div>
+  <div class="text-4xl font-black text-white">USD 71.5B</div>
+  <div class="text-xs text-gray-400 mt-1">Mercado global de pesticidas 2024</div>
+  <div class="text-xs text-green-500 mt-1">→ USD 133B en 2034 · CAGR 6.4%</div>
+  <div class="text-xs text-gray-600 mt-1">Market.us</div>
 </div>
 
 <div class="bg-purple-950/40 border border-purple-700 rounded-xl p-4 text-center">
-  <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-1">SAM · Al que podemos llegar</div>
-  <div class="text-4xl font-black text-white">USD 3B</div>
-  <div class="text-xs text-gray-400 mt-1">Cultivos de exportación con LMR obligatorio</div>
-  <div class="text-xs text-gray-500 mt-1">Aguacate, berries, cítricos, hortalizas</div>
+  <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-1">SAM · Segmento biopesticidas</div>
+  <div class="text-4xl font-black text-white">USD 8.57B</div>
+  <div class="text-xs text-gray-400 mt-1">Mercado global de biopesticidas 2024</div>
+  <div class="text-xs text-purple-400 mt-1">→ USD 29.24B en 2032 · CAGR 16.72%</div>
+  <div class="text-xs text-gray-600 mt-1">Fortune Business Insights</div>
 </div>
 
 <div class="bg-blue-950/40 border border-blue-700 rounded-xl p-4 text-center">
-  <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-1">SOM · Meta real año 3</div>
-  <div class="text-4xl font-black text-white">USD 5M</div>
-  <div class="text-xs text-gray-400 mt-1">Argentina + Brasil</div>
-  <div class="text-xs text-gray-500 mt-1">🇦🇷 Arándano + aguacate 🇧🇷 Primeros contratos</div>
+  <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-1">SOM · Mercado accesible</div>
+  <div class="text-4xl font-black text-white">USD 18B</div>
+  <div class="text-xs text-gray-400 mt-1">Argentina + Brasil (mercado regional)</div>
+  <div class="text-xs text-gray-500 mt-1">🇦🇷 USD 3.5B · 🇧🇷 USD 14.8B</div>
+  <div class="text-xs text-gray-600 mt-1">Agrolatam · LATAM total USD 23.3B</div>
 </div>
 
 </div>
 
 <div v-click class="bg-green-950/30 border border-green-700 rounded-xl p-3 text-center mb-3">
-  <div class="text-gray-400 text-xs mb-1">Si convertimos el <span class="text-white font-semibold">1% del mercado químico</span> a biopesticidas</div>
-  <div class="text-4xl font-black text-green-400">USD 150M ARR</div>
-  <div class="text-gray-400 text-xs mt-1">revenue anual recurrente</div>
+  <div class="text-gray-400 text-xs mb-1">Si convertimos el <span class="text-white font-semibold">1% del mercado regional</span> a biopesticidas</div>
+  <div class="text-4xl font-black text-green-400">USD 180M ARR</div>
+  <div class="text-gray-400 text-xs mt-1">revenue anual recurrente potencial</div>
 </div>
 
 <div class="grid grid-cols-2 gap-4 text-center">
@@ -370,10 +373,10 @@ class: 'bg-gray-950 text-white'
   <div class="text-gray-400 text-xs">🇦🇷 Argentina · <strong class="text-red-400">si no cumple LMR, no entra a la UE</strong></div>
 </div>
 
-<div class="footnote">CropLife LATAM · MAPA Brasil</div>
+<div class="footnote">Market.us · Fortune Business Insights · Agrolatam</div>
 
 <!--
-El TAM es el mercado de pesticidas químicos que ya existe: USD 15B en LATAM. El negocio de Lipock es capturar una fracción de ese gasto y convertirlo a biopesticidas. SAM: cultivos de exportación donde el LMR es obligatorio para entrar a UE y EE.UU. Con solo el 1% de conversión: USD 150M ARR.
+TAM: USD 71.5B mercado global de pesticidas 2024, proyectado a USD 133B en 2034 (CAGR 6.4%). SAM: USD 8.57B mercado global de biopesticidas, creciendo al 16.72% anual hacia USD 29.24B en 2032. SOM: Argentina + Brasil = ~USD 18B del mercado regional de USD 23.3B en LATAM. Con 1% de conversión: USD 180M ARR.
 -->
 
 ---
