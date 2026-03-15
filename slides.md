@@ -287,10 +287,18 @@ class: 'bg-gray-950 text-white'
         <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
         <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
       </tr>
-      <tr>
+      <tr class="border-b border-gray-800">
         <td class="text-gray-300 py-3 pr-4">Sin solventes tóxicos en producción</td>
         <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
         <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+      </tr>
+      <tr>
+        <td class="text-gray-300 py-3 pr-4">Aplicación en otras industrias</td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
+        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
         <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
         <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
         <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
