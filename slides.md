@@ -159,7 +159,7 @@ class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
   <div class="text-green-400 text-sm font-semibold uppercase tracking-widest mb-8">La pregunta que nos hicimos</div>
   <div class="text-4xl font-black text-white leading-snug">
     ¿Cómo hacer biopesticidas tan <span class="text-red-400 underline decoration-red-500">efectivos y baratos</span><br>
-    que la agroindustria <span class="text-green-400 underline decoration-green-500">reduzca insumos químicos</span> sin perder rentabilidad,<br>
+    que la agroindustria <span class="text-green-400 underline decoration-green-500">reduzca insumos químicos</span> sin sacrificar <span class="text-white underline">rentabilidad</span> ni <span class="text-white underline">rendimiento</span>,<br>
     y al mismo tiempo <span class="text-green-400 underline decoration-green-500">cuide la tierra</span>?
   </div>
 </div>
