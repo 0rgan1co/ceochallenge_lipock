@@ -408,6 +408,52 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
+<h1 class="text-3xl font-black text-white mb-1">Clientes target <span class="text-green-400">B2B</span></h1>
+<div class="text-gray-400 text-xs mb-4">Vendemos al que decide la compra de insumos — no al consumidor final.</div>
+
+<div class="grid grid-cols-3 gap-4">
+
+  <div class="bg-gray-900 border border-green-800 rounded-xl p-4 flex flex-col gap-2">
+    <div class="text-green-400 text-xs font-bold uppercase tracking-widest">Productor grande</div>
+    <div class="text-3xl font-black text-white">+500 ha</div>
+    <div class="text-gray-400 text-xs">Palta · Arándanos · Cítricos</div>
+    <div class="border-t border-gray-700 pt-2 mt-1 text-xs text-gray-300">Buyer racional. Decide por <span class="text-white font-semibold">costo/ha y acceso a mercados UE</span>. Presupuesto propio de insumos.</div>
+    <div class="mt-auto text-xs text-green-400 font-semibold">~50 productores concentran el 100% de la exportación de arándanos</div>
+  </div>
+
+  <div class="bg-gray-900 border border-blue-800 rounded-xl p-4 flex flex-col gap-2">
+    <div class="text-blue-400 text-xs font-bold uppercase tracking-widest">Cooperativa / CREA</div>
+    <div class="text-3xl font-black text-white">Grupo</div>
+    <div class="text-gray-400 text-xs">Consorcios de experimentación agrícola</div>
+    <div class="border-t border-gray-700 pt-2 mt-1 text-xs text-gray-300">Canal de validación y escala. <span class="text-white font-semibold">Adoptan tecnología testeada en red</span> y replican en múltiples campos.</div>
+    <div class="mt-auto text-xs text-blue-400 font-semibold">Alianza activa con red CREA — acceso directo a pilotos</div>
+  </div>
+
+  <div class="bg-gray-900 border border-purple-800 rounded-xl p-4 flex flex-col gap-2">
+    <div class="text-purple-400 text-xs font-bold uppercase tracking-widest">Distribuidor de insumos</div>
+    <div class="text-3xl font-black text-white">Canal</div>
+    <div class="text-gray-400 text-xs">Agronomías · casas de agroquímicos</div>
+    <div class="border-t border-gray-700 pt-2 mt-1 text-xs text-gray-300">Multiplica alcance sin fuerza de ventas propia. <span class="text-white font-semibold">Margen atractivo</span> por diferenciación en portafolio.</div>
+    <div class="mt-auto text-xs text-purple-400 font-semibold">Modelo go-to-market: directo + canal distribuidor</div>
+  </div>
+
+</div>
+
+<div class="mt-4 grid grid-cols-3 gap-4 text-xs text-center text-gray-400">
+  <div><span class="text-white font-semibold">Disparador de compra:</span> cumplimiento LMR para exportar a UE</div>
+  <div><span class="text-white font-semibold">Ticket promedio:</span> USD 10K/año por productor de 100 ha</div>
+  <div><span class="text-white font-semibold">Ciclo de venta:</span> 1 temporada de piloto → contrato anual</div>
+</div>
+
+<!--
+Tres perfiles de cliente B2B: productor grande que decide por economía y acceso UE, cooperativas/CREA como canal de validación masiva, y distribuidores de insumos para escala.
+-->
+
+---
+layout: default
+class: 'bg-gray-950 text-white'
+---
+
 <div class="absolute inset-0 overflow-hidden opacity-10">
   <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
     <circle cx="10%" cy="20%" r="3" fill="#4ade80"/><circle cx="30%" cy="15%" r="2" fill="#4ade80"/><circle cx="50%" cy="25%" r="3" fill="#4ade80"/><circle cx="70%" cy="10%" r="2" fill="#4ade80"/><circle cx="90%" cy="22%" r="3" fill="#4ade80"/><circle cx="20%" cy="50%" r="2" fill="#4ade80"/><circle cx="40%" cy="45%" r="3" fill="#4ade80"/><circle cx="60%" cy="55%" r="2" fill="#4ade80"/><circle cx="80%" cy="48%" r="3" fill="#4ade80"/><circle cx="15%" cy="80%" r="2" fill="#4ade80"/><circle cx="35%" cy="75%" r="3" fill="#4ade80"/><circle cx="55%" cy="85%" r="2" fill="#4ade80"/><circle cx="75%" cy="78%" r="3" fill="#4ade80"/><circle cx="95%" cy="82%" r="2" fill="#4ade80"/>
@@ -552,10 +598,11 @@ class: 'bg-gray-950 text-white'
 
   <div class="relative w-48 h-48">
     <svg viewBox="0 0 200 200" class="w-full h-full -rotate-90">
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#3b82f6" stroke-width="30" stroke-dasharray="106.8 534" stroke-dashoffset="0" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#14b8a6" stroke-width="30" stroke-dasharray="106.8 534" stroke-dashoffset="-106.8" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#a855f7" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-213.6" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#f59e0b" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-373.8" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#22c55e" stroke-width="30" stroke-dasharray="213.6 534" stroke-dashoffset="0" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#3b82f6" stroke-width="30" stroke-dasharray="80.1 534" stroke-dashoffset="-213.6" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#a855f7" stroke-width="30" stroke-dasharray="80.1 534" stroke-dashoffset="-293.7" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#f97316" stroke-width="30" stroke-dasharray="80.1 534" stroke-dashoffset="-373.8" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#14b8a6" stroke-width="30" stroke-dasharray="80.1 534" stroke-dashoffset="-453.9" />
     </svg>
     <div class="absolute inset-0 flex items-center justify-center">
       <div class="text-center">
@@ -566,10 +613,11 @@ class: 'bg-gray-950 text-white'
   </div>
 
   <div class="flex flex-col gap-2 mt-4 text-sm items-start">
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#3b82f6]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 20%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#14b8a6]"></div><span class="text-gray-300">Exploración producción y ruta al mercado · 20%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#a855f7]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#f59e0b]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#22c55e]"></div><span class="text-gray-300">Brasil Discovery · 40%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#3b82f6]"></div><span class="text-gray-300">Equipo · 15%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#a855f7]"></div><span class="text-gray-300">I+D · 15%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#f97316]"></div><span class="text-gray-300">Manufactura · 15%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#14b8a6]"></div><span class="text-gray-300">Ruta al mercado · 15%</span></div>
   </div>
 </div>
 
