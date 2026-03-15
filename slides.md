@@ -244,108 +244,6 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<h1 class="text-3xl font-black text-white mb-2">Evidencia científica — <span class="text-green-400">ensayo biológico</span></h1>
-
-<div class="flex items-center gap-3 mb-3">
-  <span class="bg-yellow-900/60 border border-yellow-600 text-yellow-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">TRL 4 · Ensayo in vitro validado</span>
-  <span class="text-gray-500 text-xs">Múnera-Echeverri et al. · Colloids and Interfaces · MDPI 2024</span>
-</div>
-
-<div class="grid grid-cols-2 gap-4">
-
-  <!-- DISEÑO EXPERIMENTAL -->
-  <div class="space-y-2">
-    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Diseño del ensayo</div>
-
-    <div class="bg-gray-900 border border-gray-700 rounded-xl p-3">
-      <div class="text-xs font-semibold text-white mb-2">Plagas objetivo (3 especies cosmopolitas)</div>
-      <div class="grid grid-cols-3 gap-2">
-        <div class="bg-red-950/40 border border-red-800 rounded-lg p-2 text-center">
-          <div class="text-base">🐛</div>
-          <div class="text-xs text-red-300 font-semibold">Pulgón verde</div>
-          <div class="text-xs text-gray-500 italic">Myzus persicae</div>
-          <div class="text-xs text-gray-400 mt-1">20 adultos</div>
-        </div>
-        <div class="bg-orange-950/40 border border-orange-800 rounded-lg p-2 text-center">
-          <div class="text-base">🕷️</div>
-          <div class="text-xs text-orange-300 font-semibold">Ácaro rojo</div>
-          <div class="text-xs text-gray-500 italic">Tetranychus urticae</div>
-          <div class="text-xs text-gray-400 mt-1">20 adultos</div>
-        </div>
-        <div class="bg-yellow-950/40 border border-yellow-800 rounded-lg p-2 text-center">
-          <div class="text-base">🪲</div>
-          <div class="text-xs text-yellow-300 font-semibold">Trips</div>
-          <div class="text-xs text-gray-500 italic">Frankliniella occ.</div>
-          <div class="text-xs text-gray-400 mt-1">10 adultos</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="bg-gray-900 border border-gray-700 rounded-xl p-3 text-xs space-y-1.5">
-      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Discos de hoja de frijol (⌀ 4 cm), 4 repeticiones por tratamiento</span></div>
-      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">0,50 mL de nanosuspensión aplicados con pulverizador manual</span></div>
-      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Condiciones: 25 ± 5 °C · HR 70 ± 5%</span></div>
-      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Controles: agua destilada (–) · acetona · CapsiAlil EC® (+)</span></div>
-      <div class="flex items-start gap-2"><span class="text-green-400 mt-0.5">▸</span><span class="text-gray-300">Medición de mortalidad a las 24 h y 48 h</span></div>
-    </div>
-  </div>
-
-  <!-- RESULTADOS -->
-  <div class="space-y-2">
-    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-1">Resultados — TEO-NLC (aceite de tomillo)</div>
-
-    <div class="space-y-2">
-      <div class="bg-gray-900 border border-yellow-700 rounded-xl p-3">
-        <div class="flex justify-between items-center mb-1">
-          <span class="text-yellow-300 text-xs font-semibold">Trips · Frankliniella occ.</span>
-          <span class="text-white text-sm font-black">24–38%</span>
-        </div>
-        <div class="w-full bg-gray-800 rounded-full h-2 mb-1">
-          <div class="bg-yellow-400 h-2 rounded-full" style="width: 38%"></div>
-        </div>
-        <div class="text-yellow-600 text-xs">Toxicidad moderada · mejor resultado del ensayo</div>
-      </div>
-
-      <div class="bg-gray-900 border border-orange-800 rounded-xl p-3">
-        <div class="flex justify-between items-center mb-1">
-          <span class="text-orange-300 text-xs font-semibold">Ácaro · Tetranychus urticae</span>
-          <span class="text-white text-sm font-black">~23%</span>
-        </div>
-        <div class="w-full bg-gray-800 rounded-full h-2 mb-1">
-          <div class="bg-orange-400 h-2 rounded-full" style="width: 23%"></div>
-        </div>
-        <div class="text-orange-700 text-xs">Toxicidad leve · efectos mecánicos confirmados</div>
-      </div>
-
-      <div class="bg-gray-900 border border-gray-700 rounded-xl p-3">
-        <div class="flex justify-between items-center mb-1">
-          <span class="text-gray-400 text-xs font-semibold">Pulgón · Myzus persicae</span>
-          <span class="text-gray-400 text-sm font-black">Limitado</span>
-        </div>
-        <div class="w-full bg-gray-800 rounded-full h-2 mb-1">
-          <div class="bg-gray-600 h-2 rounded-full" style="width: 8%"></div>
-        </div>
-        <div class="text-gray-600 text-xs">REO-NLC (romero) también mostró eficacia mínima</div>
-      </div>
-    </div>
-
-    <div class="bg-green-950/40 border border-green-700 rounded-xl p-3 text-xs text-gray-300">
-      La encapsulación <strong class="text-white">mejora la actividad insecticida</strong> vs. aceite libre por inmovilización y penetración mecánica.
-      Próximo paso: <span class="text-green-400 font-semibold">optimizar dosis para mayor letalidad en campo</span>.
-    </div>
-  </div>
-
-</div>
-
-<!--
-TRL 4: ensayo in vitro validado. TEO-NLC demostró toxicidad moderada en trips (24–38%) y leve en ácaros (~23%). La encapsulación mejora la actividad insecticida. Siguiente etapa: pilotos en campo abierto.
--->
-
----
-layout: default
-class: 'bg-gray-950 text-white'
----
-
 <h1 class="text-3xl font-black text-white mb-3">¿En qué nos <span class="text-green-400">diferenciamos</span>?</h1>
 
 <div class="w-full">
@@ -654,7 +552,8 @@ class: 'bg-gray-950 text-white'
 
   <div class="relative w-48 h-48">
     <svg viewBox="0 0 200 200" class="w-full h-full -rotate-90">
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#3b82f6" stroke-width="30" stroke-dasharray="213.6 534" stroke-dashoffset="0" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#3b82f6" stroke-width="30" stroke-dasharray="106.8 534" stroke-dashoffset="0" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#14b8a6" stroke-width="30" stroke-dasharray="106.8 534" stroke-dashoffset="-106.8" />
       <circle cx="100" cy="100" r="85" fill="none" stroke="#a855f7" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-213.6" />
       <circle cx="100" cy="100" r="85" fill="none" stroke="#f59e0b" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-373.8" />
     </svg>
@@ -667,7 +566,8 @@ class: 'bg-gray-950 text-white'
   </div>
 
   <div class="flex flex-col gap-2 mt-4 text-sm items-start">
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#3b82f6]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 40%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#3b82f6]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 20%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#14b8a6]"></div><span class="text-gray-300">Exploración producción y ruta al mercado · 20%</span></div>
     <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#a855f7]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
     <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full flex-shrink-0 bg-[#f59e0b]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
   </div>
@@ -761,6 +661,99 @@ class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
   <div class="text-8xl font-black text-white mb-4">Preguntas</div>
   <div class="text-green-400 text-xl font-medium">Me interesa escucharlos.</div>
 </div>
+
+---
+layout: default
+class: 'bg-gray-950 text-white'
+---
+
+<style scoped>
+.bar { height: 8px; border-radius: 4px; background: #374151; overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 4px; }
+</style>
+
+<h1 class="text-2xl font-black text-white mb-2">Anexo · Evidencia científica — <span class="text-green-400">ensayo biológico</span> <span class="text-xs font-normal text-yellow-400 border border-yellow-600 px-2 py-0.5 rounded-full ml-2">TRL 4 · in vitro</span></h1>
+
+<div class="grid grid-cols-2 gap-5">
+
+<div>
+  <p class="text-green-400 text-xs font-bold uppercase tracking-widest mb-2">Diseño del ensayo</p>
+  <table class="w-full text-xs mb-3" style="border-collapse:collapse">
+    <thead>
+      <tr style="border-bottom:1px solid #374151">
+        <th class="text-gray-400 font-normal text-left py-1 pr-2">Plaga</th>
+        <th class="text-gray-400 font-normal text-left py-1 pr-2">Especie</th>
+        <th class="text-gray-400 font-normal text-right py-1">Individuos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #1f2937">
+        <td class="text-red-300 py-1.5 pr-2 font-semibold">Pulgón verde</td>
+        <td class="text-gray-400 py-1.5 pr-2 italic">Myzus persicae</td>
+        <td class="text-white py-1.5 text-right">20 adultos</td>
+      </tr>
+      <tr style="border-bottom:1px solid #1f2937">
+        <td class="text-orange-300 py-1.5 pr-2 font-semibold">Ácaro rojo</td>
+        <td class="text-gray-400 py-1.5 pr-2 italic">Tetranychus urticae</td>
+        <td class="text-white py-1.5 text-right">20 adultos</td>
+      </tr>
+      <tr>
+        <td class="text-yellow-300 py-1.5 pr-2 font-semibold">Trips</td>
+        <td class="text-gray-400 py-1.5 pr-2 italic">Frankliniella occidentalis</td>
+        <td class="text-white py-1.5 text-right">10 adultos</td>
+      </tr>
+    </tbody>
+  </table>
+  <ul class="text-xs text-gray-300 space-y-1 mb-3">
+    <li><span class="text-green-400">▸</span> Discos de hoja de frijol (4 cm diámetro) · 4 repeticiones</li>
+    <li><span class="text-green-400">▸</span> 0,50 mL de nanosuspensión · pulverizador manual</li>
+    <li><span class="text-green-400">▸</span> 25 ± 5 °C · HR 70 ± 5% · medición a 24 h y 48 h</li>
+    <li><span class="text-green-400">▸</span> Controles: agua (–) · acetona · CapsiAlil EC® (+)</li>
+  </ul>
+  <p class="text-gray-600 text-xs italic">Múnera-Echeverri et al. · Colloids and Interfaces · MDPI 2024</p>
+</div>
+
+<div>
+  <p class="text-green-400 text-xs font-bold uppercase tracking-widest mb-2">Resultados — TEO-NLC (aceite de tomillo)</p>
+
+  <div class="mb-3">
+    <div class="flex justify-between text-xs mb-1">
+      <span class="text-yellow-300 font-semibold">Trips</span>
+      <span class="text-white font-bold">24–38% mortalidad</span>
+    </div>
+    <div class="bar"><div class="bar-fill" style="width:38%;background:#facc15"></div></div>
+    <p class="text-yellow-700 text-xs mt-0.5">Toxicidad moderada · mejor resultado del ensayo</p>
+  </div>
+
+  <div class="mb-3">
+    <div class="flex justify-between text-xs mb-1">
+      <span class="text-orange-300 font-semibold">Ácaro rojo</span>
+      <span class="text-white font-bold">~23% mortalidad</span>
+    </div>
+    <div class="bar"><div class="bar-fill" style="width:23%;background:#fb923c"></div></div>
+    <p class="text-orange-800 text-xs mt-0.5">Toxicidad leve · efectos mecánicos confirmados</p>
+  </div>
+
+  <div class="mb-4">
+    <div class="flex justify-between text-xs mb-1">
+      <span class="text-gray-400 font-semibold">Pulgón verde</span>
+      <span class="text-gray-500 font-bold">Efecto limitado</span>
+    </div>
+    <div class="bar"><div class="bar-fill" style="width:8%;background:#4b5563"></div></div>
+    <p class="text-gray-600 text-xs mt-0.5">REO-NLC (romero) también mostró eficacia mínima</p>
+  </div>
+
+  <div style="border:1px solid #166534;border-radius:12px;padding:12px" class="text-xs text-gray-300">
+    La encapsulación <strong class="text-white">mejora la actividad insecticida</strong> vs. aceite libre (inmovilización + penetración mecánica).
+    Próximo paso: <span class="text-green-400 font-semibold">optimizar dosis y escalar a pilotos en campo</span>.
+  </div>
+</div>
+
+</div>
+
+<!--
+TRL 4: ensayo in vitro validado. TEO-NLC demostró toxicidad moderada en trips (24–38%) y leve en ácaros (~23%). La encapsulación mejora la actividad insecticida. Siguiente etapa: pilotos en campo abierto.
+-->
 
 ---
 layout: default
