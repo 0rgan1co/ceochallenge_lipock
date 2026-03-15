@@ -256,57 +256,57 @@ class: 'bg-gray-950 text-white'
     <tbody>
       <tr class="border-b border-gray-800">
         <td class="text-gray-300 py-3 pr-4">Sin residuo en suelo ni alimento</td>
-        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">🟡</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
       </tr>
       <tr class="border-b border-gray-800">
         <td class="text-gray-300 py-3 pr-4">Principio activo 100% natural (GRAS)</td>
-        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
       </tr>
       <tr class="border-b border-gray-800">
         <td class="text-gray-300 py-3 pr-4">Reducción de dosis ≥ 20x</td>
-        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">🟡</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">🟡</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
       </tr>
       <tr class="border-b border-gray-800">
         <td class="text-gray-300 py-3 pr-4">Materias primas producibles en Latam</td>
-        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
       </tr>
       <tr class="border-b border-gray-800">
         <td class="text-gray-300 py-3 pr-4">Sin solventes tóxicos en producción</td>
-        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-yellow-400 text-base">~</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">🟡</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
       </tr>
       <tr>
         <td class="text-gray-300 py-3 pr-4">Potencial de aplicación en otras industrias</td>
-        <td class="text-center py-3 px-3 bg-white/5"><span class="text-green-400 text-lg">✓</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
-        <td class="text-center py-3 px-3"><span class="text-red-400 text-lg">✗</span></td>
+        <td class="text-center py-3 px-3 bg-white/5"><span class="text-xl">✅</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
+        <td class="text-center py-3 px-3"><span class="text-xl">❌</span></td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<div class="mt-4 text-gray-600 text-xs">✓ confirmado · ~ parcial o en desarrollo · ✗ no aplica / no documentado</div>
+<div class="mt-4 text-gray-600 text-xs">✅ confirmado · 🟡 parcial o en desarrollo · ❌ no aplica / no documentado</div>
 
 ---
 layout: default
