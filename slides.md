@@ -175,8 +175,25 @@ class: 'bg-gray-950 text-white'
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
     <img src="/images/nanocapsulas-estructura.png" class="w-full h-full object-cover" />
   </div>
-  <div class="rounded-2xl overflow-hidden border border-green-800 h-48">
-    <img src="/images/planta-campo.jpg" class="w-full h-full object-cover" />
+  <div class="rounded-2xl overflow-hidden border border-green-800 h-48 relative" style="background: linear-gradient(135deg, #1a3a1a 50%, #3d1f00 50%);">
+    <!-- Living soil side (top-left) -->
+    <div class="absolute top-0 left-0 w-1/2 h-full flex flex-col justify-center items-center gap-1 pr-2">
+      <div class="text-2xl">🌿</div>
+      <div class="text-green-300 text-xs font-bold text-center leading-tight">Suelo<br>vivo</div>
+      <div class="flex gap-0.5 flex-wrap justify-center mt-1">
+        <span class="text-xs">🦠</span><span class="text-xs">🐛</span><span class="text-xs">🍄</span>
+      </div>
+    </div>
+    <!-- Dead soil side (bottom-right) -->
+    <div class="absolute top-0 right-0 w-1/2 h-full flex flex-col justify-center items-center gap-1 pl-2">
+      <div class="text-2xl">🏜️</div>
+      <div class="text-orange-300 text-xs font-bold text-center leading-tight">Suelo<br>muerto</div>
+      <div class="text-xs text-orange-400 mt-1">sin vida</div>
+    </div>
+    <!-- Diagonal label -->
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div style="width:2px; height:100%; background: rgba(255,255,255,0.15); transform: rotate(45deg) scaleY(2);"></div>
+    </div>
   </div>
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
     <img src="/images/plagas-objetivo.png" class="w-full h-full object-cover" />
