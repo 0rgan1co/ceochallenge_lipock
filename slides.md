@@ -156,12 +156,45 @@ layout: center
 class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
 ---
 
+<style>
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #4ade80; }
+}
+.typewriter-line {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-right: 3px solid #4ade80;
+  animation: typewriter 1.2s steps(40) forwards, blink 0.7s step-end 1.2s 3;
+}
+.typewriter-line-2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  border-right: 3px solid #4ade80;
+  animation: typewriter 1.4s steps(50) forwards, blink 0.7s step-end 1.4s 3;
+}
+</style>
+
 <div class="text-center max-w-4xl mx-auto">
   <div class="text-green-400 text-sm font-semibold uppercase tracking-widest mb-8">La pregunta que nos hicimos</div>
   <div class="text-4xl font-black text-white leading-snug">
-    ¿Cómo hacer biopesticidas tan <span class="text-red-400 underline decoration-red-500">efectivos y baratos</span><br>
-    que la agroindustria <span class="text-green-400 underline decoration-green-500">reduzca insumos químicos</span> sin sacrificar <span class="text-white underline">rentabilidad</span> ni <span class="text-white underline">rendimiento</span>,<br>
-    y al mismo tiempo <span class="text-green-400 underline decoration-green-500">cuide la tierra</span>?
+    <div class="typewriter-line">
+      ¿Cómo hacer biopesticidas tan <span class="text-red-400 underline decoration-red-500">efectivos y baratos</span>
+    </div>
+    <br>
+    <div v-click class="typewriter-line-2">
+      que la agroindustria <span class="text-green-400 underline decoration-green-500">reduzca insumos químicos</span> sin sacrificar <span class="text-white underline">rentabilidad</span> ni <span class="text-white underline">rendimiento</span>,
+    </div>
+    <br>
+    <div v-click class="typewriter-line-2" style="animation-delay: 0.2s;">
+      y al mismo tiempo <span class="text-green-400 underline decoration-green-500">cuide la tierra</span>?
+    </div>
   </div>
 </div>
 
