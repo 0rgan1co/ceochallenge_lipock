@@ -120,7 +120,7 @@ class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
 <div class="text-center max-w-3xl mx-auto">
   <div class="text-green-400 text-sm font-semibold uppercase tracking-widest mb-6">La pregunta que nos hicimos</div>
   <div class="text-2xl font-bold text-white leading-relaxed">
-    ¿Cómo podríamos hacer que los biopesticidas sean tan <span class="text-green-400">efectivos y baratos</span>
+    ¿Cómo podríamos hacer que los biopesticidas sean tan <span class="text-red-400">efectivos y baratos</span>
     para que la agroindustria pueda <span class="text-green-400">reducir el uso de insumos químicos</span>,
     sin sacrificar rentabilidad ni rendimiento,
     y al mismo tiempo <span class="text-green-400">cuidar la tierra</span>?
