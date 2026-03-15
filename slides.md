@@ -598,9 +598,9 @@ class: 'bg-gray-950 text-white'
 
   <div class="relative w-48 h-48">
     <svg viewBox="0 0 200 200" class="w-full h-full -rotate-90">
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#166534" stroke-width="30" stroke-dasharray="213.6 534" stroke-dashoffset="0" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#22c55e" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-213.6" />
-      <circle cx="100" cy="100" r="85" fill="none" stroke="#4ade80" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-373.8" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#3b82f6" stroke-width="30" stroke-dasharray="213.6 534" stroke-dashoffset="0" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#a855f7" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-213.6" />
+      <circle cx="100" cy="100" r="85" fill="none" stroke="#f59e0b" stroke-width="30" stroke-dasharray="160.2 534" stroke-dashoffset="-373.8" />
     </svg>
     <div class="absolute inset-0 flex items-center justify-center">
       <div class="text-center">
@@ -611,9 +611,9 @@ class: 'bg-gray-950 text-white'
   </div>
 
   <div class="grid grid-cols-2 gap-x-6 gap-y-2 mt-4 text-sm">
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#166534]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 40%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#22c55e]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#4ade80]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#3b82f6]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 40%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#a855f7]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#f59e0b]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
   </div>
 </div>
 
