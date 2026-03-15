@@ -223,7 +223,7 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-3">¿En qué nos diferenciamos?</div>
+<h1 class="text-3xl font-black text-white mb-3">¿En qué nos <span class="text-green-400">diferenciamos</span>?</h1>
 
 <div class="w-full">
   <table class="w-full text-sm border-collapse">
