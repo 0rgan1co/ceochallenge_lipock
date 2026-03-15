@@ -384,7 +384,7 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-<div class="text-gray-500 text-xs font-bold uppercase tracking-widest mb-2">Anexo · Comparación de precio</div>
+<h1 class="text-3xl font-black text-white mb-2">Anexo · Comparación de <span class="text-green-400">precio</span></h1>
 
 <div class="grid grid-cols-3 gap-3 mb-3">
 
