@@ -69,8 +69,8 @@ class: 'bg-gray-950 text-white'
   <div v-click v-motion :initial="{ opacity: 0, y: 30 }" :enter="{ opacity: 1, y: 0, transition: { duration: 500 } }" class="relative bg-gray-900 border border-gray-700 rounded-xl p-3 flex flex-col overflow-hidden">
     <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-700 to-red-400 rounded-t-xl"></div>
     <div class="text-red-400 text-xs font-bold uppercase tracking-widest mb-1">Personas</div>
-    <div class="text-4xl font-black text-white leading-none mb-1">1 de 2</div>
-    <div class="text-gray-300 text-xs mb-2">alimentos con residuos agrotóxicos</div>
+    <div class="text-4xl font-black text-white leading-none mb-1">50%</div>
+    <div class="text-gray-300 text-xs mb-2">de los alimentos con residuos agrotóxicos</div>
     <div class="border-t border-gray-700 mb-2"></div>
     <div class="mb-2">
       <span class="inline-block bg-red-900 text-red-200 text-xs font-semibold px-2 py-0.5 rounded mb-1">Para tu familia</span>
