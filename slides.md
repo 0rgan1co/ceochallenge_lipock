@@ -29,27 +29,21 @@ class: 'bg-gray-950 text-white'
 }
 </style>
 
-<div class="text-center max-w-4xl mx-auto">
-  <div class="text-4xl text-white font-black leading-snug">
-    ¿Saben cuántos <span class="text-red-400">pesticidas</span> tienen<br>las <span class="text-green-400">frutas y verduras</span><br>que comemos?
+<div class="flex flex-col justify-center h-full max-w-3xl">
+  <div class="text-3xl text-white font-black leading-snug mb-10">
+    ¿Cuántos <span class="text-red-400">pesticidas químicos</span> tienen<br>las <span class="text-green-400">frutas y verduras</span> que comés?
   </div>
-</div>
-
----
-layout: cover
-background: /images/lipock-microscopia.png
-class: 'text-white'
----
-
-<div class="flex flex-col items-center justify-center h-full text-center backdrop-blur-sm bg-black/60 rounded-3xl p-12">
-  <div class="text-7xl font-black tracking-tight text-white mb-3">
+  <div class="text-8xl font-black tracking-tight text-white leading-none mb-4">
     LI<span class="text-green-400">POCK</span>
   </div>
-  <div class="text-xl text-green-300 font-medium mb-4">
-    Biotecnología que la agroindustria quiere y puede pagar
+  <div class="flex items-center gap-3 mb-6">
+    <div class="w-1 h-6 bg-green-400 rounded-full"></div>
+    <div class="text-lg text-gray-300 font-medium">
+      Biotecnología que la agroindustria quiere y puede pagar
+    </div>
   </div>
-  <div class="mt-8 text-gray-400 text-sm">
-    <span class="text-white font-semibold">CEO Challenge</span> · Jorge Roldán · Lipock
+  <div class="text-gray-500 text-sm">
+    <span class="text-white font-semibold">CEO Challenge</span> · Jorge Roldán
   </div>
 </div>
 
@@ -62,60 +56,56 @@ layout: default
 class: 'bg-gray-950 text-white'
 ---
 
-# La mayoría de los productores usa pesticidas químicos
+<div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-2">Tres dolores. Un sistema roto.</div>
 
-<div class="text-gray-400 text-base mb-4">Es lo que conocen. Pero tiene <span class="text-orange-400 font-semibold">consecuencias silenciosas</span>.</div>
+# La mayoría de los productores siguen usando pesticidas químicos
 
-<div class="grid grid-cols-2 gap-6 mb-4">
+<div class="text-gray-400 text-base mb-2">Las consecuencias son <span class="text-orange-400 font-semibold">silenciosas</span>...</div>
 
-  <div class="bg-red-950/30 border border-red-700 rounded-2xl p-4">
-    <div class="flex items-center gap-4 mb-3">
-      <div class="text-5xl font-black text-white">1 de 2</div>
-      <div>
-        <div class="text-sm text-gray-400">alimentos en tu plato tiene residuos</div>
-        <div class="text-xs text-gray-500 mt-1">EFSA 2024</div>
-      </div>
+<div class="grid grid-cols-3 gap-5 mt-2">
+
+  <div class="relative bg-red-950/20 border border-red-700/60 rounded-2xl p-5 flex flex-col items-center text-center overflow-hidden">
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-red-700 to-red-400 rounded-t-2xl"></div>
+    <div class="text-3xl mb-2">🧑‍🤝‍🧑</div>
+    <div class="text-red-400 text-xs font-bold uppercase tracking-widest mb-3">Personas</div>
+    <div class="text-6xl font-black text-white leading-none mb-1">1 de 2</div>
+    <div class="text-red-300 text-sm font-semibold mb-3">alimentos tiene residuos agrotóxicos</div>
+    <div class="w-full bg-red-950/50 border border-red-900/50 rounded-xl p-3 space-y-1">
+      <div class="text-xs text-gray-300 font-semibold text-left mb-1">Consecuencias</div>
+      <div class="text-xs text-gray-400 text-left">· Disrupción endocrina y neurotoxicidad crónica</div>
+      <div class="text-xs text-gray-400 text-left">· Europa endurece los límites cada ciclo — el productor convencional pierde contratos de exportación</div>
     </div>
-    <div class="flex justify-center gap-2 my-3">
-      <span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl">🍎</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span><span class="text-2xl opacity-20">🍏</span>
-    </div>
-    <div class="flex justify-center gap-4 text-xs text-gray-400">
-      <span>🍎 con residuos</span><span class="opacity-40">🍏 sin residuos</span>
-    </div>
+    <div class="text-xs text-gray-600 mt-3">EFSA (Autoridad Europea de Seguridad Alimentaria) 2024</div>
   </div>
 
-  <div class="bg-orange-950/30 border border-orange-700 rounded-2xl p-4">
-    <div class="flex items-center gap-4 mb-3">
-      <div class="text-5xl font-black text-white">½ kg</div>
-      <div>
-        <div class="text-sm text-gray-400">de pesticidas por persona, cada año</div>
-        <div class="text-xs text-gray-500 mt-1">FAO 2023</div>
-      </div>
+  <div class="relative bg-orange-950/20 border border-orange-700/60 rounded-2xl p-5 flex flex-col items-center text-center overflow-hidden">
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-700 to-orange-400 rounded-t-2xl"></div>
+    <div class="text-3xl mb-2">🌾</div>
+    <div class="text-orange-400 text-xs font-bold uppercase tracking-widest mb-3">Producción</div>
+    <div class="text-5xl font-black text-white leading-none mb-1">32%</div>
+    <div class="text-orange-300 text-sm font-semibold mb-3">de los fitosanitarios de LATAM viene de China</div>
+    <div class="w-full bg-orange-950/50 border border-orange-900/50 rounded-xl p-3 space-y-1">
+      <div class="text-xs text-gray-300 font-semibold text-left mb-1">Consecuencias</div>
+      <div class="text-xs text-gray-400 text-left">· La rentabilidad depende de una variable que no controlás: precio de insumos en dólares</div>
+      <div class="text-xs text-gray-400 text-left">· Cada devaluación o arancel golpea directo al margen del campo</div>
     </div>
-    <div class="flex items-end justify-center gap-8 my-3">
-      <div class="flex flex-col items-center">
-        <div class="bg-orange-700/60 rounded-t-lg w-12" style="height: 32px"></div>
-        <div class="text-xs text-gray-400 mt-1">1990 · ¼ kg</div>
-      </div>
-      <div class="flex flex-col items-center">
-        <div class="bg-orange-500 rounded-t-lg w-12" style="height: 64px"></div>
-        <div class="text-xs text-white font-bold mt-1">2023 · ½ kg</div>
-      </div>
-    </div>
-    <div class="text-center text-orange-400 text-sm font-semibold">Se duplicó en 30 años</div>
+    <div class="text-xs text-gray-600 mt-3">CropLife Latin America</div>
   </div>
 
-</div>
+  <div class="relative bg-green-950/20 border border-green-700/60 rounded-2xl p-5 flex flex-col items-center text-center overflow-hidden">
+    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-green-700 to-green-400 rounded-t-2xl"></div>
+    <div class="text-3xl mb-2">🌍</div>
+    <div class="text-green-400 text-xs font-bold uppercase tracking-widest mb-3">Planeta</div>
+    <div class="text-5xl font-black text-white leading-none mb-1">40%</div>
+    <div class="text-green-300 text-sm font-semibold mb-3">del suelo agrícola está degradado</div>
+    <div class="w-full bg-green-950/50 border border-green-900/50 rounded-xl p-3 space-y-1">
+      <div class="text-xs text-gray-300 font-semibold text-left mb-1">Consecuencias</div>
+      <div class="text-xs text-gray-400 text-left">· Los residuos persisten décadas — impiden la transición a orgánico aunque dejes de aplicar</div>
+      <div class="text-xs text-gray-400 text-left">· La tierra es el activo más valioso — y se está destruyendo</div>
+    </div>
+    <div class="text-xs text-gray-600 mt-3">FAO (Organización de la ONU para la Alimentación) / Scherr & Yadav</div>
+  </div>
 
-<div v-click class="grid grid-cols-2 gap-6">
-  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-4 text-center">
-    <div class="text-lg font-black text-orange-400 mb-1">Disrupción endocrina</div>
-    <div class="text-gray-500 text-sm">Alteran hormonas reproductivas y metabólicas</div>
-  </div>
-  <div class="bg-orange-950/20 border border-orange-800 rounded-2xl p-4 text-center">
-    <div class="text-lg font-black text-orange-400 mb-1">Neurotoxicidad</div>
-    <div class="text-gray-500 text-sm">Daño neurológico crónico por organofosforados</div>
-  </div>
 </div>
 
 <!--
@@ -130,9 +120,10 @@ class: 'bg-gradient-to-br from-gray-950 to-green-950 text-white'
 <div class="text-center max-w-3xl mx-auto">
   <div class="text-green-400 text-sm font-semibold uppercase tracking-widest mb-6">La pregunta que nos hicimos</div>
   <div class="text-2xl font-bold text-white leading-relaxed">
-    ¿Cómo podríamos hacer que los biocompuestos naturales sean tan <span class="text-green-400">efectivos y baratos</span>
-    para que la agroindustria pueda <span class="text-green-400">reducir el uso de insumos químicos</span>
-    sin sacrificar rentabilidad ni rendimiento?
+    ¿Cómo podríamos hacer que los biopesticidas sean tan <span class="text-green-400">efectivos y baratos</span>
+    para que la agroindustria pueda <span class="text-green-400">reducir el uso de insumos químicos</span>,
+    sin sacrificar rentabilidad ni rendimiento,
+    y al mismo tiempo <span class="text-green-400">cuidar la tierra</span>?
   </div>
 </div>
 
@@ -179,25 +170,38 @@ Nuestra tecnología NLC: tres imágenes hablan por sí solas. Nanocápsulas, for
 -->
 
 ---
+layout: center
+class: 'bg-gray-950 text-white'
+---
+
+# Detalle de la solución
+
+<div class="mt-4">
+  <img src="/images/nanoparticulas-tipos.png" class="w-full rounded-2xl" />
+</div>
+
+---
 layout: default
 class: 'bg-gray-950 text-white'
 ---
 
 # La oportunidad de mercado
 
-<div class="grid grid-cols-3 gap-6 mt-4 mb-4">
+<div class="text-gray-400 text-sm mb-4">El negocio está en convertir una fracción del mercado de <span class="text-white font-semibold">pesticidas químicos</span> — que ya existe, ya se compra, ya se presupuesta.</div>
+
+<div class="grid grid-cols-3 gap-6 mt-2 mb-4">
 
 <div class="bg-green-950/40 border border-green-700 rounded-2xl p-5 text-center">
   <div class="text-green-300 text-xs font-semibold uppercase tracking-wider mb-2">TAM · Mercado total</div>
-  <div class="text-5xl font-black text-white">USD 4,8B</div>
-  <div class="text-sm text-gray-400 mt-2">Bioinsumos en Latinoamérica</div>
-  <div class="text-xs text-gray-500 mt-1">Crece 17% al año · Mordor Intelligence</div>
+  <div class="text-5xl font-black text-white">USD 15B</div>
+  <div class="text-sm text-gray-400 mt-2">Pesticidas químicos en Latinoamérica</div>
+  <div class="text-xs text-gray-500 mt-1">Brasil + Argentina · CropLife LATAM 2023</div>
 </div>
 
 <div class="bg-purple-950/40 border border-purple-700 rounded-2xl p-5 text-center">
   <div class="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-2">SAM · Al que podemos llegar</div>
-  <div class="text-5xl font-black text-white">USD 1,2B</div>
-  <div class="text-sm text-gray-400 mt-2">Cultivos de alto valor en LATAM</div>
+  <div class="text-5xl font-black text-white">USD 3B</div>
+  <div class="text-sm text-gray-400 mt-2">Cultivos de exportación con cumplimiento LMR obligatorio</div>
   <div class="text-xs text-gray-500 mt-1">Aguacate, berries, cítricos, hortalizas</div>
 </div>
 
@@ -211,20 +215,20 @@ class: 'bg-gray-950 text-white'
 </div>
 
 <div v-click class="bg-green-950/30 border border-green-700 rounded-2xl p-4 text-center mb-3">
-  <div class="text-gray-400 text-sm mb-1">Si capturamos el 2% del mercado total</div>
-  <div class="text-5xl font-black text-green-400">USD 100M ARR</div>
-  <div class="text-gray-400 text-sm mt-1">revenue anual recurrente</div>
+  <div class="text-gray-400 text-sm mb-1">Si convertimos el <span class="text-white font-semibold">1% del mercado químico</span> a biopesticidas</div>
+  <div class="text-5xl font-black text-green-400">USD 150M ARR</div>
+  <div class="text-gray-400 text-sm mt-1">revenue anual recurrente (ingresos recurrentes anuales)</div>
 </div>
 
 <div class="grid grid-cols-2 gap-6 text-center">
-  <div class="text-gray-400 text-sm">🇧🇷 156M ha con bioinsumos · Ley 15.700 · primera ley de bioinsumos del mundo</div>
-  <div class="text-gray-400 text-sm">🇦🇷 Arándano orgánico · 95% se exporta · <strong class="text-red-400">si no cumple LMR, no entra a UE</strong></div>
+  <div class="text-gray-400 text-sm">🇧🇷 Brasil con palanca jurídica · Ley 15.700 · primera ley de bioinsumos del mundo</div>
+  <div class="text-gray-400 text-sm">🇦🇷 Argentina · oportunidad para acelerar la transición · <strong class="text-red-400">si no cumple LMR (Límites Máximos de Residuos), no entra a la UE (Unión Europea)</strong></div>
 </div>
 
-<div class="footnote">CropLife LATAM · Mordor Intelligence · MAPA Brasil</div>
+<div class="footnote">CropLife LATAM · MAPA (Ministerio de Agricultura, Ganadería y Abastecimiento) Brasil</div>
 
 <!--
-TAM: 4.8 mil millones, todo el mercado de bioinsumos en Latinoamérica. SAM: 1.2 mil millones, cultivos de exportación que deben cumplir LMR. SOM: 5 millones en año 3, enfocados en Argentina y Brasil. Si llegamos al 1% del total, son 48 millones de ARR.
+El TAM es el mercado de pesticidas químicos que ya existe: USD 15B en LATAM. El negocio de Lipock es capturar una fracción de ese gasto y convertirlo a biopesticidas. SAM: cultivos de exportación donde el LMR es obligatorio para entrar a UE y EE.UU. Con solo el 1% de conversión: USD 150M ARR.
 -->
 
 ---
@@ -284,7 +288,7 @@ class: 'bg-gray-950 text-white'
     <img src="/images/jorge-roldan.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Jorge Roldán</div>
-  <div class="text-cyan-400 text-xs">Negocio & Estrategia</div>
+  <div class="text-cyan-400 text-xs">Ing. Industrial y de Sistemas</div>
   <div class="text-gray-500 text-xs">Tec de Monterrey</div>
 </div>
 
@@ -370,7 +374,7 @@ class: 'bg-gray-950 text-white'
   </div>
 
   <div class="grid grid-cols-2 gap-x-6 gap-y-2 mt-4 text-sm">
-    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#166534]"></div><span class="text-gray-300">I+D · 40%</span></div>
+    <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#166534]"></div><span class="text-gray-300">I+D (Investigación y Desarrollo) · 40%</span></div>
     <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#22c55e]"></div><span class="text-gray-300">Campo & Patentes · 30%</span></div>
     <div class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-[#4ade80]"></div><span class="text-gray-300">Talento & Ops · 30%</span></div>
   </div>
@@ -381,7 +385,7 @@ class: 'bg-gray-950 text-white'
   <div class="space-y-4">
     <div class="flex items-start gap-3">
       <div class="text-green-400 text-base mt-0.5">&#10003;</div>
-      <div class="text-base text-white">Pilotos en cultivos estratégicos con la red de testeo de CREA</div>
+      <div class="text-base text-white">Pilotos en cultivos estratégicos con la red de testeo de CREA (Consorcios Regionales de Experimentación Agrícola)</div>
     </div>
     <div class="flex items-start gap-3">
       <div class="text-green-400 text-base mt-0.5">&#10003;</div>
@@ -412,22 +416,41 @@ class: 'bg-gradient-to-br from-gray-950 via-green-950 to-gray-950 text-white'
 
 <div class="text-center max-w-3xl mx-auto">
 
-  <div class="text-7xl font-black text-white mb-8">
+  <div class="text-7xl font-black text-white mb-6">
     LI<span class="text-green-400">POCK</span>
   </div>
 
-  <div class="text-5xl font-black text-white mb-4 leading-tight">
+  <div class="bg-white/5 border border-white/10 rounded-2xl px-10 py-5 inline-block mb-8">
+    <div class="text-green-300 text-xl font-medium">Biotecnología que la agroindustria quiere y puede pagar.</div>
+  </div>
+
+  <div class="text-5xl font-black text-white mb-6 leading-tight">
     El futuro es <span class="text-green-400">biológico.</span>
   </div>
 
-  <div class="text-xl text-gray-300 leading-relaxed mb-10">
-    Si te interesa que más plantas cuiden a otras plantas<br>
-    para que las personas tengamos <span class="text-green-400">alimentos más saludables</span>,<br>
-    hablemos.
+  <div class="text-2xl font-bold text-green-300 mb-6 italic">
+    "Plantas que cuidan otras plantas"
   </div>
 
-  <div class="bg-white/5 border border-white/10 rounded-2xl px-10 py-5 inline-block">
-    <div class="text-green-300 text-xl font-medium">Biotecnología que la agroindustria quiere y puede pagar.</div>
+  <div class="flex justify-center gap-6 mb-8">
+    <div class="flex flex-col items-center gap-2">
+      <span class="text-3xl">🍎</span>
+      <span class="text-sm text-gray-300 font-medium">Comida saludable</span>
+    </div>
+    <div class="text-gray-600 text-2xl flex items-center">·</div>
+    <div class="flex flex-col items-center gap-2">
+      <span class="text-3xl">🌾</span>
+      <span class="text-sm text-gray-300 font-medium">Mejor producción</span>
+    </div>
+    <div class="text-gray-600 text-2xl flex items-center">·</div>
+    <div class="flex flex-col items-center gap-2">
+      <span class="text-3xl">🌱</span>
+      <span class="text-sm text-gray-300 font-medium">Cuidar la tierra</span>
+    </div>
+  </div>
+
+  <div class="text-4xl font-black text-white">
+    ¿Te sumás?
   </div>
 
 </div>
