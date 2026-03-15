@@ -354,10 +354,10 @@ class: 'bg-gray-950 text-white'
 
 <div class="bg-blue-950/40 border border-blue-700 rounded-xl p-4 text-center">
   <div class="text-blue-300 text-xs font-semibold uppercase tracking-wider mb-1">SOM · Mercado primario</div>
-  <div class="text-4xl font-black text-white">~USD 20B</div>
-  <div class="text-xs text-gray-400 mt-1">Colombia · Argentina · Brasil</div>
-  <div class="text-xs text-gray-500 mt-1">🇨🇴 ~USD 1.7B · 🇦🇷 USD 3.5B · 🇧🇷 USD 14.8B</div>
-  <div class="text-xs text-gray-600 mt-1">Agrolatam · SENASA · MAPA Brasil</div>
+  <div class="text-4xl font-black text-white">USD 3.5B</div>
+  <div class="text-xs text-gray-400 mt-1">Argentina · mercado de fitosanitarios</div>
+  <div class="text-xs text-gray-500 mt-1">🇦🇷 Primer mercado objetivo de Lipock</div>
+  <div class="text-xs text-gray-600 mt-1">SENASA</div>
 </div>
 
 </div>
