@@ -468,10 +468,24 @@ class: 'bg-gray-950 text-white'
 
 # Hay equipo — y queremos hacerlo articulando con el ecosistema
 
+<style>
+.team-card img {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease, transform 0.3s ease;
+}
+.team-card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.08);
+}
+.team-card:hover .team-border {
+  box-shadow: 0 0 0 3px currentColor;
+}
+</style>
+
 <div class="grid grid-cols-5 gap-3 mt-4">
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-24 h-24 rounded-full border-3 border-green-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-24 h-24 rounded-full border-3 border-green-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/alejandro-munera.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Alejandro Múnera</div>
@@ -479,8 +493,8 @@ class: 'bg-gray-950 text-white'
   <div class="text-gray-500 text-xs">Formulación · U. Antioquia</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-24 h-24 rounded-full border-3 border-blue-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-24 h-24 rounded-full border-3 border-blue-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/freimar-segura.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Freimar Segura</div>
@@ -488,8 +502,8 @@ class: 'bg-gray-950 text-white'
   <div class="text-gray-500 text-xs">Farmacotecnia · U. Antioquia</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-24 h-24 rounded-full border-3 border-purple-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-24 h-24 rounded-full border-3 border-purple-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/danilo-echeverri.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Danilo Echeverri</div>
@@ -497,8 +511,8 @@ class: 'bg-gray-950 text-white'
   <div class="text-gray-500 text-xs">Nanociencia · U. Nacional</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-24 h-24 rounded-full border-3 border-orange-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-24 h-24 rounded-full border-3 border-orange-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/joseluis-munera.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Jose Luis Múnera</div>
@@ -506,8 +520,8 @@ class: 'bg-gray-950 text-white'
   <div class="text-gray-500 text-xs">Bioinformática · U. Nacional</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-24 h-24 rounded-full border-3 border-cyan-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-24 h-24 rounded-full border-3 border-cyan-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/jorge-roldan.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Jorge Roldán</div>
@@ -521,40 +535,40 @@ class: 'bg-gray-950 text-white'
 
 <div class="grid grid-cols-5 gap-3">
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-20 h-20 rounded-full border-2 border-yellow-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-20 h-20 rounded-full border-2 border-yellow-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/maty-bunge.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Maty Bunge</div>
   <div class="text-yellow-400 text-xs">Ex-Presidenta CREA</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-20 h-20 rounded-full border-2 border-blue-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-20 h-20 rounded-full border-2 border-blue-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/julia-mensa.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Julia Mensa</div>
   <div class="text-blue-400 text-xs">Founder Nunatak</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-20 h-20 rounded-full border-2 border-purple-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-20 h-20 rounded-full border-2 border-purple-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/vera-alvarez.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Vera Alvarez</div>
   <div class="text-purple-400 text-xs">Women in Science</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-20 h-20 rounded-full border-2 border-emerald-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-20 h-20 rounded-full border-2 border-emerald-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/ruben-altman.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Rubén Altman</div>
   <div class="text-emerald-400 text-xs">ClimaTech</div>
 </div>
 
-<div class="flex flex-col items-center text-center">
-  <div class="w-20 h-20 rounded-full border-2 border-green-500 overflow-hidden mb-2 bg-gray-800">
+<div class="team-card flex flex-col items-center text-center cursor-pointer">
+  <div class="team-border w-20 h-20 rounded-full border-2 border-green-500 overflow-hidden mb-2 bg-gray-800">
     <img src="/images/juanmanuel-garrido.png" class="w-full h-full object-cover" />
   </div>
   <div class="font-bold text-white text-xs">Juan M. Garrido</div>
