@@ -175,24 +175,23 @@ class: 'bg-gray-950 text-white'
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
     <img src="/images/nanocapsulas-estructura.png" class="w-full h-full object-cover" />
   </div>
-  <div class="rounded-2xl overflow-hidden border border-green-800 h-48 relative" style="background: linear-gradient(135deg, #1a3a1a 50%, #3d1f00 50%);">
-    <!-- Living soil side (top-left) -->
-    <div class="absolute top-0 left-0 w-1/2 h-full flex flex-col justify-center items-center gap-1 pr-2">
-      <div class="text-2xl">🌿</div>
-      <div class="text-green-300 text-xs font-bold text-center leading-tight">Suelo<br>vivo</div>
-      <div class="flex gap-0.5 flex-wrap justify-center mt-1">
-        <span class="text-xs">🦠</span><span class="text-xs">🐛</span><span class="text-xs">🍄</span>
-      </div>
+  <div class="rounded-2xl overflow-hidden border border-green-800 h-48 relative">
+    <!-- Foto suelo vivo (izquierda, clip diagonal) -->
+    <div class="absolute inset-0" style="clip-path: polygon(0 0, 58% 0, 42% 100%, 0 100%);">
+      <img src="/images/suelo-vivo.jpg" class="w-full h-full object-cover" style="filter: saturate(1.3);" />
     </div>
-    <!-- Dead soil side (bottom-right) -->
-    <div class="absolute top-0 right-0 w-1/2 h-full flex flex-col justify-center items-center gap-1 pl-2">
-      <div class="text-2xl">🏜️</div>
-      <div class="text-orange-300 text-xs font-bold text-center leading-tight">Suelo<br>muerto</div>
-      <div class="text-xs text-orange-400 mt-1">sin vida</div>
+    <!-- Foto suelo muerto (derecha, clip diagonal) -->
+    <div class="absolute inset-0" style="clip-path: polygon(58% 0, 100% 0, 100% 100%, 42% 100%);">
+      <img src="/images/suelo-muerto.jpg" class="w-full h-full object-cover" style="filter: saturate(0.6) sepia(0.3);" />
     </div>
-    <!-- Diagonal label -->
-    <div class="absolute inset-0 flex items-center justify-center">
-      <div style="width:2px; height:100%; background: rgba(255,255,255,0.15); transform: rotate(45deg) scaleY(2);"></div>
+    <!-- Línea diagonal de separación -->
+    <div class="absolute inset-0" style="background: linear-gradient(to bottom, transparent 0%, transparent 45%, rgba(255,255,255,0.6) 50%, transparent 55%, transparent 100%); transform: rotate(20deg) scaleX(0.1) translateX(250%)"></div>
+    <!-- Labels -->
+    <div class="absolute bottom-2 left-3">
+      <span class="bg-green-900/80 text-green-300 text-xs font-bold px-2 py-0.5 rounded-full">Suelo vivo</span>
+    </div>
+    <div class="absolute bottom-2 right-3">
+      <span class="bg-orange-900/80 text-orange-300 text-xs font-bold px-2 py-0.5 rounded-full">Suelo degradado</span>
     </div>
   </div>
   <div class="rounded-2xl overflow-hidden border border-gray-700 h-48">
