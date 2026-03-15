@@ -103,7 +103,7 @@ class: 'bg-gray-950 text-white'
       <span class="inline-block bg-yellow-900 text-yellow-200 text-xs font-semibold px-2 py-0.5 rounded mb-1">Para el productor</span>
       <div class="border-l-2 border-yellow-700 pl-2">
         <div class="text-xs text-gray-300 mb-1">Cada insumo se paga en dólares. Cualquier sacudón externo se traduce en:</div>
-        <div class="text-xs text-white underline">margen destruido</div>
+        <div class="text-xs text-white underline">riesgo de margen variable</div>
         <div class="text-xs text-white underline">costos impredecibles</div>
         <div class="text-xs text-gray-500 mt-1">Devaluación o arancel nuevo = pérdida directa</div>
       </div>
