@@ -1,4 +1,4 @@
-import{d as p,u as h,a as u,c as _,b as f,r as g,t as v,e as x,_ as y,o as n,f as i,g as e,h as a,F as b,i as N,j as k,k as P,l as V,n as S}from"./index-DsVgNyaF.js";import{N as w}from"./NoteDisplay-DkZmGzfT.js";const D=p({__name:"PresenterPrint",setup(d,{expose:r}){r(),h(`
+import{d as p,u as h,a as u,c as _,b as f,r as g,t as v,e as x,_ as y,o as n,f as i,g as e,h as a,F as b,i as N,j as k,k as P,l as V,n as S}from"./index-BPEXIOOw.js";import{N as w}from"./NoteDisplay-D6RXxybI.js";const D=p({__name:"PresenterPrint",setup(d,{expose:r}){r(),h(`
 @page {
   size: A4;
   margin-top: 1.5cm;
